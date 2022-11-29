@@ -1,0 +1,267 @@
+/*--------------------*/
+/* - POPUPS           */
+/*--------------------*/
+.popup-wrapper {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  transition-delay: .3s;
+  display: block;
+}
+
+.popup-wrapper.active {
+  left: 0;
+  transition-delay: 0s;
+}
+
+.popup-wrapper .bg-layer {
+  position: absolute;
+  left: 0;
+  top: -100px;
+  right: 0;
+  bottom: -100px;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity var(--transition-1);
+}
+
+.popup-wrapper.active .bg-layer {
+  opacity: 1;
+}
+
+.popup-content {
+  position: absolute;
+  inset: 0;
+  font-size: 0;
+  text-align: center;
+  letter-spacing: 0;
+  padding: 15px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100px);
+  transition: var(--transition-1);
+}
+
+.popup-content.active {
+  transform: translateY(0%);
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup-content:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.popup-content .layer-close {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 10000px;
+}
+
+.popup-container {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  max-width: 776px;
+  background: var(--clr-white);
+
+  .btn-close {
+    position: absolute;
+    z-index: 10;
+    top: 15px;
+    right: 15px;
+  }
+}
+
+.popup-align {
+  position: relative;
+  padding: 60px 90px;
+
+  >* {
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.popup-title {
+  max-width: 420px;
+  margin-inline: auto;
+  font-weight: 600;
+
+  b {
+    font-weight: inherit;
+    color: var(--clr-red);
+  }
+}
+
+
+/*--------------------*/
+/* - VIDEO POPUPS     */
+/*--------------------*/
+.video-popup {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  transition-delay: .3s;
+  letter-spacing: 0;
+}
+
+.video-popup.active {
+  left: 0;
+  transition-delay: 0s;
+}
+
+.video-popup-overlay {
+  position: absolute;
+  left: 0;
+  top: -100px;
+  right: 0;
+  bottom: -100px;
+  opacity: 0;
+  transition: var(--transition-1);
+}
+
+.video-popup.active .video-popup-overlay {
+  opacity: .8;
+}
+
+.video-popup-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  font-size: 0;
+  text-align: center;
+  transition: transform .3s ease, opacity .3s ease, left 0s .3s;
+  transform: scale(1.2);
+  opacity: 0;
+  left: -10000px;
+}
+
+.video-popup.active .video-popup-content {
+  transform: scale(1);
+  opacity: 1;
+  left: 0;
+  transition: transform .3s ease, opacity .3s ease, left 0s 0s;
+  position: relative;
+}
+
+.video-popup-content:after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.video-popup-container {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  background: var(--clr-white);
+  vertical-align: middle;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 2px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.video-popup-layer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 10000px;
+  background: rgba(19, 19, 19, 0.45);
+}
+
+.video-popup-align {
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+.video-popup .embed-responsive-16by9 {
+  padding-bottom: 56.3%;
+}
+
+.video-popup iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.video-popup-container .ytp-overflow-panel-close {
+  top: 0 !important;
+  right: 0 !important;
+}
+
+.video-popup-container .btn-close {
+  background: var(--clr-white);
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+
+  &:before,
+  &:after {
+    width: 75%;
+  }
+}
+
+.video-block {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition-1) .5s;
+
+  iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+  }
+
+  .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: var(--clr-white);
+  }
+}
+
+.video-wrap-block.active>.video-block {
+  z-index: 50;
+  opacity: 1;
+  visibility: visible;
+}
