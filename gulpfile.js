@@ -155,12 +155,12 @@ export const img = () => {
         message: "Error: <%= error.message %>"
       })
     ))
-    .pipe(newer('app/img/'))
-    .pipe(webp({
-      quality: 50
-    }))
-    .pipe(gulp.dest('app/img/'))
-    .pipe(gulp.src('images/**/*.{png,jpg,svg}'))
+    // .pipe(newer('app/img/'))
+    // .pipe(webp({
+    //   quality: 50
+    // }))
+    // .pipe(gulp.dest('app/img/'))
+    // .pipe(gulp.src('images/**/*.{png,jpg,svg}'))
     .pipe(newer('app/img/'))
     .pipe(
       imagemin({
