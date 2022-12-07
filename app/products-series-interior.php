@@ -49,15 +49,15 @@
 
               <!-- Products row -->
               <div class="row prd__row">
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <div class="prd__item type2">
-                    <div class="prd__item--img">
-                      <img src="img/prd-img-38.png" alt="" loading="lazy">
+                  <div class=" col-md-3 col-sm-4 col-6">
+                    <div class="prd__item type2">
+                      <div class="prd__item--img">
+                        <img src="img/prd-img-38.png" alt="" loading="lazy">
+                      </div>
+                      <div class="prd__item--name">HBX50</div>
+                      <div class="prd__item--descr">HBX Series</div>
+                      <div class="prd__item--view"><a href="product-detail.php">View</a></div>
                     </div>
-                    <div class="prd__item--name">HBX50</div>
-                    <div class="prd__item--descr">HBX Series</div>
-                    <div class="prd__item--view"><a href="product-detail.php">View</b></div>
-                    </a>
                   </div>
                   <div class=" col-md-3 col-sm-4 col-6">
                     <div class="prd__item type2">

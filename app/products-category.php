@@ -21,7 +21,7 @@
             <div class="banner-entry-align align-bottom text-center">
               <div class="container">
                 <div class="row">
-                  <div class="col-xxl-8 offset-1">
+                  <div class="col-xxl-8 offset-xxl-1">
                     <h1 class="h2 title white text-upper text-left">All Interior Products</h1>
                     <div class="h6 grey-300 fw-400 text-left">
                       Et bibendum posuere cras ullamcorper a sem quam et, in. Diam arcu sit cursus imperdiet quis amet, vitae nisi, sagittis. Pharetra viverra molestie fermentum, pharetra, diam, tellus ac vel. Pulvinar non, bibendum vitae et. Neque dui maecenas ut vel.
@@ -39,7 +39,7 @@
 
       <!-- Category Menu -->
       <div class="category-section">
-        <div class="ctg__mobile--btn d-xl-none"></div>
+        <div class="ctg__mobile--btn"></div>
 
         <div class="ctg__menu--wrap">
           <div class="btn-close type-2 d-xl-none"></div>
@@ -214,7 +214,6 @@
             </div>
 
             <div class="btn btn-2 btn-primary"><b>Reset</b></div>
-
           </div>
         </div>
       </div>
@@ -225,127 +224,24 @@
           <div class="row justify-content-center">
             <div class="col-xxl-10">
 
+              <div class="prd__title--wrap">
+                <div class="h4 title">Ceiling Mount Products</div>
+                <div class="simple-link">
+                  <b>View All Products</b><i></i>
+                </div>
+              </div>
+
               <!-- Products row -->
               <div class="row prd__row">
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <a class="prd__item type2" href="product-detail.php">
+                <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
+                  <div class="prd__item type2">
                     <div class="prd__item--img">
                       <img src="img/prd-img-35.png" alt="" loading="lazy">
                     </div>
                     <div class="prd__item--name">ARPS35</div>
                     <div class="prd__item--descr">ARPS Series</div>
-                  </a>
-                </div>
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <a class="prd__item type2" href="product-detail.php">
-                    <div class="prd__item--label">
-                      <img src="img/arrow.svg" alt="" loading="lazy">
-                      <b>Most Popular</b>
-                    </div>
-                    <div class="prd__item--img">
-                      <img src="img/prd-img-35.png" alt="" loading="lazy">
-                    </div>
-                    <div class="prd__item--name">ARPS75</div>
-                    <div class="prd__item--descr">ARPS Series</div>
-                  </a>
-                </div>
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <a class="prd__item type2" href="product-detail.php">
-                    <div class="prd__item--img">
-                      <img src="img/prd-img-36.png" alt="" loading="lazy">
-                    </div>
-                    <div class="prd__item--name">ARPS140</div>
-                    <div class="prd__item--descr">ARPS Series</div>
-                  </a>
-                </div>
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <a class="prd__item type2" href="product-detail.php">
-                    <div class="prd__item--img">
-                      <img src="img/prd-img-37.png" alt="" loading="lazy">
-                    </div>
-                    <div class="prd__item--name">ARPS185</div>
-                    <div class="prd__item--descr">ARPS Series</div>
-                  </a>
-                </div>
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <a class="prd__item type2" href="product-detail.php">
-                    <div class="prd__item--img">
-                      <img src="img/prd-img-35.png" alt="" loading="lazy">
-                    </div>
-                    <div class="prd__item--name">ARPS35</div>
-                    <div class="prd__item--descr">ARPS Series</div>
-                  </a>
-                </div>
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <a class="prd__item type2" href="product-detail.php">
-                    <div class="prd__item--label">
-                      <img src="img/arrow.svg" alt="" loading="lazy">
-                      <b>Most Popular</b>
-                    </div>
-                    <div class="prd__item--img">
-                      <img src="img/prd-img-35.png" alt="" loading="lazy">
-                    </div>
-                    <div class="prd__item--name">ARPS75</div>
-                    <div class="prd__item--descr">ARPS Series</div>
-                  </a>
-                </div>
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <a class="prd__item type2" href="product-detail.php">
-                    <div class="prd__item--img">
-                      <img src="img/prd-img-36.png" alt="" loading="lazy">
-                    </div>
-                    <div class="prd__item--name">ARPS140</div>
-                    <div class="prd__item--descr">ARPS Series</div>
-                  </a>
-                </div>
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <a class="prd__item type2" href="product-detail.php">
-                    <div class="prd__item--img">
-                      <img src="img/prd-img-37.png" alt="" loading="lazy">
-                    </div>
-                    <div class="prd__item--name">ARPS185</div>
-                    <div class="prd__item--descr">ARPS Series</div>
-                  </a>
-                </div>
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <a class="prd__item type2" href="product-detail.php">
-                    <div class="prd__item--img">
-                      <img src="img/prd-img-35.png" alt="" loading="lazy">
-                    </div>
-                    <div class="prd__item--name">ARPS35</div>
-                    <div class="prd__item--descr">ARPS Series</div>
-                  </a>
-                </div>
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <a class="prd__item type2" href="product-detail.php">
-                    <div class="prd__item--label">
-                      <img src="img/arrow.svg" alt="" loading="lazy">
-                      <b>Most Popular</b>
-                    </div>
-                    <div class="prd__item--img">
-                      <img src="img/prd-img-35.png" alt="" loading="lazy">
-                    </div>
-                    <div class="prd__item--name">ARPS75</div>
-                    <div class="prd__item--descr">ARPS Series</div>
-                  </a>
-                </div>
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <a class="prd__item type2" href="product-detail.php">
-                    <div class="prd__item--img">
-                      <img src="img/prd-img-36.png" alt="" loading="lazy">
-                    </div>
-                    <div class="prd__item--name">ARPS140</div>
-                    <div class="prd__item--descr">ARPS Series</div>
-                  </a>
-                </div>
-                <div class=" col-md-3 col-sm-4 col-6">
-                  <a class="prd__item type2" href="product-detail.php">
-                    <div class="prd__item--img">
-                      <img src="img/prd-img-37.png" alt="" loading="lazy">
-                    </div>
-                    <div class="prd__item--name">ARPS185</div>
-                    <div class="prd__item--descr">ARPS Series</div>
-                  </a>
+                    <div class="prd__item--view"><a href="product-detail.php">View</a></div>
+                  </div>
                 </div>
               </div>
             </div>
