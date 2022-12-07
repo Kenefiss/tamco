@@ -196,6 +196,7 @@
 
 .prd__item.type2 {
   margin-top: 0;
+  height: 100%;
 
   &::before {
     display: none;
@@ -209,6 +210,7 @@
 
 .prd__item.type3 {
   width: 146px;
+  height: 100%;
   margin-top: 0;
   padding: 0;
   background: transparent;
@@ -274,12 +276,13 @@
   .prd__row {
     --bs-gutter-x: 10px;
   }
+
   .prd__item--view {
     display: none;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .btn-back-container {
     display: none;
   }
@@ -306,6 +309,15 @@
     .prd__item--img {
       width: 110px;
       height: 110px;
+    }
+  }
+
+  .prd__title--wrap {
+    display: block;
+
+    .simple-link {
+      margin-top: 10px;
+      margin-left: -10px;
     }
   }
 }
@@ -369,6 +381,58 @@
   }
 }
 
+.load-more.card {
+  cursor: pointer;
+  background: var(--clr-grey-100);
+  border: 1px solid var(--clr-grey-500);
+  border-radius: 8px;
+  padding: 40px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 304px;
+  transition: var(--transition);
+
+  svg {
+    margin-block: auto;
+    width: 46px;
+    height: 46px;
+  }
+
+  b {
+    margin-block: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: var(--clr-dark-blue);
+  }
+
+  &.loading svg {
+    animation-name: spin;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 1200px) {
+  .load-more.card:hover {
+    background: var(--clr-grey-300);
+  }
+}
+
 @media (max-width: 991px) {
   .series-descr {
     flex-direction: column;
@@ -386,6 +450,19 @@
     img {
       margin: 0 auto;
     }
+  }
+
+  .load-more.card {
+    padding: 30px 10px;
+    min-height: 238px;
+  }
+}
+
+@media (max-width: 374px) {
+
+  .load-more.card {
+    padding: 20px 5px;
+    min-height: 206px;
   }
 }
 

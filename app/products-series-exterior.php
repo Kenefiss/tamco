@@ -76,14 +76,14 @@
               <!-- Products row -->
               <div class="row prd__row">
                 <div class=" col-md-3 col-sm-4 col-6">
-                  <div class="prd__item type2" href="product-detail.php">
+                  <a class="prd__item type2" href="product-detail.php">
                     <div class="prd__item--img">
                       <img src="img/prd-img-35.png" alt="" loading="lazy">
                     </div>
                     <div class="prd__item--name">ARPS35</div>
                     <div class="prd__item--descr">ARPS Series</div>
-                    <div class="prd__item--view"><a href="product-detail.php">View</a></div>
-                  </div>
+                    <div class="prd__item--view"><a>View</a></div>
+                  </a>
                 </div>
                 <div class=" col-md-3 col-sm-4 col-6">
                   <a class="prd__item type2" href="product-detail.php">
