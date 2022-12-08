@@ -28,7 +28,7 @@
 .prd__item.type2 .prd__item--img {width: 146px;height: 146px;}
 .prd__item.type3 {width: 146px;height: 100%;margin-top: 0;padding: 0;background: transparent;border: none;border-radius: 0;}
 .prd__item.type3::before {display: none;}
-.prd__item.type3 .prd__item--img {width: 100%;padding-top: 100%;background: var(--clr-white);border: 1px solid var(--clr-grey-500);border-radius: 8px;margin-bottom: 10px;}
+.prd__item.type3 .prd__item--img {width: 100%;padding-top: 100%;height: auto;background: var(--clr-white);border: 1px solid var(--clr-grey-500);border-radius: 8px;margin-bottom: 10px;}
 @media (min-width: 1200px) {
 .prd__item:hover:before {opacity: 0;}
 .prd__item:hover .prd__item--view {opacity: 1;visibility: visible;}
