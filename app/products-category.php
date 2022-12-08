@@ -14,6 +14,7 @@
     <main>
       <!-- Category Menu -->
       <div class="category-section">
+        <div class="ctg__menu--overlay d-xl-none"></div>
         <div class="category-section-left">
           <div class="ctg__menu--wrap">
             <div class="btn-close type-2 d-xl-none"></div>

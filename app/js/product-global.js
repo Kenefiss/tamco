@@ -31,9 +31,17 @@ jQuery(function($) {
     setTimeout(function() {
       th.removeClass('loading')
     }, 4500);
-
-
   })
+
+  $(document).on('click', '.ctg__mobile--btn', function() {
+    $('html').addClass('ctg-open-filter')
+  })
+
+  $(document).on('click', '.ctg__mobile--overlay', function() {
+    $('html').removeClass('ctg-open-filter')
+  })
+
+
 
 
 });
