@@ -181,3 +181,4 @@ header.scrolled + main .category-section {--header-bottom: 60px;}
 .ctg-open-filter .ctg__menu--overlay {opacity: 1;visibility: visible;}
 .ctg__menu--overlay {position: fixed;z-index: 99;top: calc(var(--header-top) + var(--header-bottom));left: 0;right: 0;bottom: -100px;background: rgba(0, 0, 0, 0.7);opacity: 0;visibility: hidden;-webkit-transition: opacity var(--transition-1);transition: opacity var(--transition-1);}
 }
+.popup {font-size: 0;}
