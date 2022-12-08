@@ -37,11 +37,28 @@ jQuery(function($) {
     $('html').addClass('ctg-open-filter')
   })
 
-  $(document).on('click', '.ctg__mobile--overlay', function() {
+  $(document).on('click', '.ctg__menu--overlay', function() {
     $('html').removeClass('ctg-open-filter')
   })
 
+  _functions.fixedFilter = function() {
+    let winScr = $(window).scrollTop();
 
+    console.Console
 
+    if ($('.ctg__mobile--section').length > 0) {
+      let block = $('.ctg__mobile--block');
+
+      if (winScr + $('header').height() >= $('.ctg__mobile--section').offset().top) {
+        block.addClass('fixed');
+      } else {
+        block.removeClass('fixed');
+      }
+    }
+  };
+
+  $(window).on('scroll', function() {
+    _functions.fixedFilter();
+  });
 
 });
