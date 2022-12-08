@@ -196,3 +196,4 @@ html.ctg-open-filter body {overflow: hidden;}
 @media (max-width: 575px) {
 .ctg__mobile--btn {max-width: 100%;width: calc(100% - 30px);margin-inline: 15px;}
 }
+.popup {font-size: 0;}
