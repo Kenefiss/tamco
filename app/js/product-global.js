@@ -61,4 +61,15 @@ jQuery(function($) {
     _functions.fixedFilter();
   });
 
+
+  // Accordion
+  $(document).on('click', '.accordion .accordion-title', function() {
+    if ($(this).hasClass('active')) {
+      $(this).removeClass('active').next().slideUp();
+    } else {
+      $(this).closest('.accordion-wrapp').find('.accordion-title').not(this).removeClass('active').next().slideUp();
+      $(this).addClass('active').next().slideDown();
+    }
+  });
+
 });

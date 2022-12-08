@@ -3,7 +3,7 @@
 
 <head>
   <?php include 'inc/_top.php';?>
-  <title>Tamlite || Interior High bay</title>
+  <title>Tamlite || Interior Bollard</title>
 </head>
 
 <body>
