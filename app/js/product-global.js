@@ -37,7 +37,6 @@ jQuery(function ($) {
     $('html').addClass('ctg-open-filter')
   })
 
-<<<<<<< HEAD
   $(document).on('click', '.ctg__mobile--overlay', function () {
     $('html').removeClass('ctg-open-filter')
   })
@@ -58,7 +57,7 @@ jQuery(function ($) {
       }
     });
   })
-=======
+
   $(document).on('click', '.ctg__menu--overlay', function() {
     $('html').removeClass('ctg-open-filter')
   })
@@ -93,6 +92,4 @@ jQuery(function ($) {
       $(this).addClass('active').next().slideDown();
     }
   });
-
->>>>>>> 795653a82d841af098297f97a1fda3db84d45fc9
 });
