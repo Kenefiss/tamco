@@ -1,0 +1,123 @@
+/*--------------------*/
+/* - Product Detail   */
+/*--------------------*/
+
+
+
+
+/*--------------------*/
+/* - Product Config   */
+/*--------------------*/
+.prd__config {
+  background-color: var(--clr-grey-900);
+  padding: 65px 0;
+
+  .row {
+    --bs-gutter-y: 80px;
+  }
+}
+
+.prd__config--info {
+  color: var(--clr-white);
+
+  .title {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+  >* {
+    color: inherit;
+  }
+}
+
+.prd__specs--name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2em;
+  letter-spacing: 0.01em;
+  color: var(--clr-grey-300);
+}
+
+.prd__specs--series {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.2em;
+  letter-spacing: 0.01em;
+  color: var(--clr-grey-300);
+  margin-top: 5px;
+}
+
+.prd__specs {
+  max-width: 368px;
+  width: 100%;
+
+  >*+.input-field-wrapp {
+    margin-top: 15px;
+  }
+
+  >*:last-child:is(.btn) {
+    margin-top: 25px;
+  }
+
+  .input-field-wrapp::before {
+    display: none;
+  }
+
+  .input-placeholder {
+    color: var(--clr-white);
+  }
+
+  .input-field-wrapp.focus .input-placeholder,
+  .input-field-wrapp.value .input-placeholder {
+    color: var(--clr-white);
+    opacity: .7;
+  }
+
+  .SelectBox {
+    height: 48px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.19em;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+    color: var(--clr-dark-blue);
+    padding: 15px;
+  }
+
+  .SumoSelect>.CaptionCont {
+    border: 1px solid var(--clr-white);
+    border-radius: 8px;
+  }
+
+  .SumoSelect>.CaptionCont>span {
+    color: var(--clr-white);
+  }
+
+  .SumoSelect>.CaptionCont>label>i:before {
+    border-top-color: var(--clr-white);
+  }
+
+}
+
+/*--------------------*/
+/* - Related Slider   */
+/*--------------------*/
+.title+.related-slider {
+  margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+
+  .related-slider .swiper-button-prev,
+  .related-slider .swiper-button-next {
+    top: 30%;
+  }
+
+  .related-slider .swiper-button-prev {
+    left: -25px;
+  }
+
+  .related-slider .swiper-button-next {
+    right: -25px;
+  }
+}

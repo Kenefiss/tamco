@@ -220,6 +220,28 @@
             <div class="spacer-sm" style="background-color: var(--clr-grey-100);"></div>
           </div>
 
+          <!-- Filter mobile Btn -->
+          <div class="section ctg__mobile--section">
+            <div class="ctg__mobile--block">
+              <div class="container">
+                <div class="ctg__mobile--btn">
+                  <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.5 12L1.5 12" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M23.5 12L17.5 12" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M3.5 20.3076L1.5 20.3076" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M23.5 20.3076L7.5 20.3076" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M7.5 23.0765L7.5 17.5381" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M7.5 3.69189L1.5 3.69189" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M23.5 3.69189L11.5 3.69189" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M11.5 0.922852L11.5 6.46131" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M17.5 14.7689L17.5 9.23047" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <b>Show Filter</b>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!--  Products section -->
           <div class="section">
             <div class="container">
@@ -275,7 +297,7 @@
                   <div class="accessories-title h3 title">Accessories</div>
 
                   <div class="swiper-entry accessories-slider">
-                    <div class="swiper-container" data-options='{"centerInsufficientSlides": false, "slidesPerView": "2", "spaceBetween": 12, "arrowsOut": true, "pagination": {"el": ".swiper-pagination", "dynamicBullets": true, "dynamicMainBullets": 1 },"breakpoints": {"415": {"slidesPerView": 3, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }},"576": {"slidesPerView": 4, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }},"768": {"slidesPerView": 5, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }}, "992": {"slidesPerView": 6, "spaceBetween": 12,"pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }}, "1200": {"slidesPerView": "7", "spaceBetween": 12,"pagination": { "dynamicBullets": true, "dynamicMainBullets": 2 }}, "1600": {"slidesPerView": "8", "spaceBetween": 12,"pagination": { "dynamicBullets": true, "dynamicMainBullets": 2 }}  }}'>
+                    <div class="swiper-container" data-options='{"centerInsufficientSlides": false, "slidesPerView": "2", "spaceBetween": 12, "arrowsOut": true, "pagination": {"el": ".swiper-pagination", "dynamicBullets": true, "dynamicMainBullets": 2 },"breakpoints": {"415": {"slidesPerView": 3, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }},"576": {"slidesPerView": 4, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }},"768": {"slidesPerView": 5, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }}, "992": {"slidesPerView": 6, "spaceBetween": 12,"pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }}, "1200": {"slidesPerView": "7", "spaceBetween": 12,"pagination": { "dynamicBullets": true, "dynamicMainBullets": 2 }}, "1600": {"slidesPerView": "8", "spaceBetween": 12,"pagination": { "dynamicBullets": true, "dynamicMainBullets": 2 }}  }}'>
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
                           <div class="prd__item type3">
