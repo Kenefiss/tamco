@@ -37,6 +37,7 @@ jQuery(function ($) {
     $('html').addClass('ctg-open-filter')
   })
 
+<<<<<<< HEAD
   $(document).on('click', '.ctg__mobile--overlay', function () {
     $('html').removeClass('ctg-open-filter')
   })
@@ -57,4 +58,41 @@ jQuery(function ($) {
       }
     });
   })
+=======
+  $(document).on('click', '.ctg__menu--overlay', function() {
+    $('html').removeClass('ctg-open-filter')
+  })
+
+  _functions.fixedFilter = function() {
+    let winScr = $(window).scrollTop();
+
+    console.Console
+
+    if ($('.ctg__mobile--section').length > 0) {
+      let block = $('.ctg__mobile--block');
+
+      if (winScr + $('header').height() >= $('.ctg__mobile--section').offset().top) {
+        block.addClass('fixed');
+      } else {
+        block.removeClass('fixed');
+      }
+    }
+  };
+
+  $(window).on('scroll', function() {
+    _functions.fixedFilter();
+  });
+
+
+  // Accordion
+  $(document).on('click', '.accordion .accordion-title', function() {
+    if ($(this).hasClass('active')) {
+      $(this).removeClass('active').next().slideUp();
+    } else {
+      $(this).closest('.accordion-wrapp').find('.accordion-title').not(this).removeClass('active').next().slideUp();
+      $(this).addClass('active').next().slideDown();
+    }
+  });
+
+>>>>>>> 795653a82d841af098297f97a1fda3db84d45fc9
 });

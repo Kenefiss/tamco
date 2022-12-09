@@ -3,7 +3,7 @@
 
 <head>
   <?php include 'inc/_top.php';?>
-  <title>Tamlite || Interior High bay</title>
+  <title>Tamlite || Interior Bollard</title>
 </head>
 
 <body>
@@ -14,6 +14,7 @@
     <main>
       <!-- Category Menu -->
       <div class="category-section">
+        <div class="ctg__menu--overlay d-xl-none"></div>
         <div class="category-section-left">
           <div class="ctg__menu--wrap">
             <div class="btn-close type-2 d-xl-none"></div>
@@ -224,9 +225,8 @@
                 <div class="col-xxl-10">
 
                   <div class="prd__title--wrap">
-                    <div class="h4 title">High Bay Products</div>
-                    <div class="simple-link">
-                      <b>View All Products</b><i></i>
+                    <div class="prd__title--count">
+                      Displaying <b>6</b> of <b>6</b> products
                     </div>
                   </div>
 
@@ -313,7 +313,7 @@
                   <div class="accessories-title h3 title">Accessories</div>
 
                   <div class="swiper-entry accessories-slider">
-                    <div class="swiper-container" data-options='{"centerInsufficientSlides": false, "slidesPerView": "2", "spaceBetween": 12, "arrowsOut": true, "pagination": {"el": ".swiper-pagination", "dynamicBullets": true, "dynamicMainBullets": 1 },"breakpoints": {"576": {"slidesPerView": 3, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }},"768": {"slidesPerView": 4, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }}, "992": {"slidesPerView": 5, "spaceBetween": 12,"pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }}, "1200": {"slidesPerView": "auto", "spaceBetween": 12,"pagination": { "dynamicBullets": true, "dynamicMainBullets": 2 }} }}'>
+                    <div class="swiper-container" data-options='{"centerInsufficientSlides": false, "slidesPerView": "2", "spaceBetween": 12, "arrowsOut": true, "pagination": {"el": ".swiper-pagination", "dynamicBullets": true, "dynamicMainBullets": 1 },"breakpoints": {"415": {"slidesPerView": 3, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }},"576": {"slidesPerView": 4, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }},"768": {"slidesPerView": 5, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }}, "992": {"slidesPerView": 6, "spaceBetween": 12,"pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }}, "1200": {"slidesPerView": "7", "spaceBetween": 12,"pagination": { "dynamicBullets": true, "dynamicMainBullets": 2 }}, "1600": {"slidesPerView": "8", "spaceBetween": 12,"pagination": { "dynamicBullets": true, "dynamicMainBullets": 2 }}  }}'>
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
                           <div class="prd__item type3">

@@ -17,7 +17,7 @@
         <div class="ctg__menu--overlay d-xl-none"></div>
         <div class="category-section-left">
           <div class="ctg__menu--wrap">
-            <div class="btn-close type-2 d-xl-none"></div>
+            <div class="btn-close type-2 d-xl-none"><b>Close</b></div>
 
             <div class="ctg__menu">
 
@@ -219,21 +219,23 @@
           </div>
 
           <!-- Filter mobile Btn -->
-          <div class="section">
-            <div class="container text-center">
-              <div class="ctg__mobile--btn">
-                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.5 12L1.5 12" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M23.5 12L17.5 12" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M3.5 20.3076L1.5 20.3076" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M23.5 20.3076L7.5 20.3076" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M7.5 23.0765L7.5 17.5381" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M7.5 3.69189L1.5 3.69189" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M23.5 3.69189L11.5 3.69189" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M11.5 0.922852L11.5 6.46131" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M17.5 14.7689L17.5 9.23047" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <b>Show Filter</b>
+          <div class="section ctg__mobile--section">
+            <div class="ctg__mobile--block">
+              <div class="container">
+                <div class="ctg__mobile--btn">
+                  <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.5 12L1.5 12" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M23.5 12L17.5 12" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M3.5 20.3076L1.5 20.3076" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M23.5 20.3076L7.5 20.3076" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M7.5 23.0765L7.5 17.5381" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M7.5 3.69189L1.5 3.69189" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M23.5 3.69189L11.5 3.69189" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M11.5 0.922852L11.5 6.46131" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M17.5 14.7689L17.5 9.23047" stroke="#193768" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <b>Show Filter</b>
+                </div>
               </div>
             </div>
           </div>
