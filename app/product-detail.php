@@ -23,10 +23,10 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-xxl-8 col-xl-9 col-md-11 p-xl-0">
-              <div class="row">
+              <div class="row justify-content-center">
 
                 <!-- left -->
-                <div class="col-sm-6 col-xl-5 offset-xl-1">
+                <div class="col-sm-6 col-xl-5">
                   <div class="swiper-thumbs prd__detail--slider">
                     <!-- top slider -->
                     <div class="swiper-entry swiper-thumbs-top">
@@ -101,19 +101,95 @@
                 </div>
 
                 <!-- right -->
-                <div class="col-sm-6 col-xl-5">
+                <div class="col-sm-6 col-xl-5 offset-xl-1">
                   <div class="prd__detail">
-                    <h1 class="prd__detail--name h2 ">
+                    <h1 class="prd__detail--name h2">
                       HBM23040K-UN4-ACR-BK
                     </h1>
-                    <div class="prd__detail--series h2 h4">
+                    <div class="prd__detail--series h3">
                       HBM Series
                     </div>
                     <div class="prd__detail--series-num h6">
                       SKU HBM23040K-UN4-ACR-BK
                     </div>
+                    <div class="social-wrapper">
+                      <a class="social-icon-entry" href="https://www.facebook.com/" target="_blank">
+                        <img src="https://tamlite-dev.itwcorp-dev.info/wp-content/themes/tamlite/img/icons/facebook-dark.svg" alt="">
+                      </a>
+                      <a class="social-icon-entry" href="https://twitter.com/" target="_blank">
+                        <img src="https://tamlite-dev.itwcorp-dev.info/wp-content/themes/tamlite/img/icons/twitter-dark.svg" alt="">
+                      </a>
+                      <a class="social-icon-entry" href="https://www.linkedin.com/" target="_blank">
+                        <img src="https://tamlite-dev.itwcorp-dev.info/wp-content/themes/tamlite/img/icons/linkedIn-dark.svg" alt="">
+                      </a>
+                    </div>
+                    <div class="label__wrap">
+                      <div class="label__inner">
+                        <div class="label__item">
+                          <img src="img/spaec-img-1.png" alt="" loading="lazy">
+                        </div>
+                        <div class="label__item">
+                          <img src="img/spaec-img-2.png" alt="" loading="lazy">
+                        </div>
+                        <div class="label__item">
+                          <img src="img/spaec-img-3.png" alt="" loading="lazy">
+                        </div>
+                        <div class="label__item">
+                          <img src="img/spaec-img-4.png" alt="" loading="lazy">
+                        </div>
+                        <div class="label__item">
+                          <img src="img/spaec-img-5.png" alt="" loading="lazy">
+                        </div>
+                        <div class="label__item">
+                          <img src="img/spaec-img-6.png" alt="" loading="lazy">
+                        </div>
+                        <div class="label__item">
+                          <img src="img/spaec-img-7.png" alt="" loading="lazy">
+                        </div>
+                        <div class="label__item">
+                          <img src="img/spaec-img-8.png" alt="" loading="lazy">
+                        </div>
+                        <div class="label__item">
+                          <img src="img/spaec-img-9.png" alt="" loading="lazy">
+                        </div>
+                        <div class="label__item">
+                          <img src="img/spaec-img-10.png" alt="" loading="lazy">
+                        </div>
+                        <div class="label__item">
+                          <img src="img/spaec-img-11.png" alt="" loading="lazy">
+                        </div>
+                      </div>
+                    </div>
 
-                    <button class="btn btn-2 btn-fourth"><b>Add to Basket</b></button>
+                    <div class="prd__detail--controls">
+                      <div class="in-wrap">
+                        <div class="in-placeholder">Quantity</div>
+                        <div class="in-inner">
+                          <button class="in-btn-dec"></button>
+                          <input name="number" type="text" readonly value="0">
+                          <button class="in-btn-inc"></button>
+                        </div>
+                      </div>
+                      <div class="in-wrap">
+                        <div class="in-wrap-placeholder">Fixture Type (Optional)</div>
+                        <div class="in-inner">
+                          <input type="text">
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="prd__detail--btn-wrap">
+                      <button class="btn btn-2 btn-fourth"><b>Add to Basket</b></button>
+
+                      <div class="tooltip">
+                        <i>?</i>
+                        <div class="tooltip-info">
+                          Add to basket to request a quote or save to a project folder
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
 
