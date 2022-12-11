@@ -148,7 +148,7 @@ export const scripts = () => {
 }
 
 export const img = () => {
-  return gulp.src('images/**/*.{png,jpg}')
+  return gulp.src('images/**/*.{png,jpg,svg}')
     .pipe(plumber(
       notify.onError({
         title: "IMAGES",

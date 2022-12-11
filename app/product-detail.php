@@ -13,26 +13,126 @@
 
     <main>
 
-      <!-- Products Banner small -->
+      <!-- Product Details -->
       <div class="section">
-
         <div class="btn-back-container container">
           <div class="btn-icon btn-back"><i></i><b>Back</b></div>
         </div>
+        <div class="spacer-sm"></div>
 
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-8 col-xl-9 col-md-11 p-xl-0">
+              <div class="row">
 
+                <!-- left -->
+                <div class="col-sm-6 col-xl-5 offset-xl-1">
+                  <div class="swiper-thumbs prd__detail--slider">
+                    <!-- top slider -->
+                    <div class="swiper-entry swiper-thumbs-top">
+                      <div class="swiper-container" data-options='{"watchSlidesVisibility": true, "watchSlidesProgress": true}'>
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="prd__detail--img">
+                              <img src="img/prd-detail-big-1.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="prd__detail--img">
+                              <img src="img/prd-detail-big-2.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="prd__detail--img">
+                              <img src="img/prd-detail-big-1.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="prd__detail--img">
+                              <img src="img/prd-detail-big-2.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="prd__detail--img">
+                              <img src="img/prd-detail-big-1.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-controls">
+                        <div class="swiper-button-prev"><i></i></div>
+                        <div class="swiper-button-next"><i></i></div>
+                      </div>
+                    </div>
+
+                    <!-- bottom slider -->
+                    <div class="swiper-entry swiper-thumbs-bottom">
+                      <div class="swiper-container" data-options='{"slidesPerView": 3, "spaceBetween": 5, "watchSlidesVisibility": true, "watchSlidesProgress": true, "breakpoints":{"767":{"spaceBetween": 10, "slidesPerView": 3}}}'>
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="prd__detail--thumbs">
+                              <img src="img/prd-detail-small-1.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="prd__detail--thumbs">
+                              <img src="img/prd-detail-small-2.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="prd__detail--thumbs">
+                              <img src="img/prd-detail-small-1.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="prd__detail--thumbs">
+                              <img src="img/prd-detail-small-2.png" alt="">
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="prd__detail--thumbs">
+                              <img src="img/prd-detail-small-1.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- right -->
+                <div class="col-sm-6 col-xl-5">
+                  <div class="prd__detail">
+                    <h1 class="prd__detail--name h2 ">
+                      HBM23040K-UN4-ACR-BK
+                    </h1>
+                    <div class="prd__detail--series h2 h4">
+                      HBM Series
+                    </div>
+                    <div class="prd__detail--series-num h6">
+                      SKU HBM23040K-UN4-ACR-BK
+                    </div>
+
+                    <button class="btn btn-2 btn-fourth"><b>Add to Basket</b></button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="spacer-sm"></div>
       </div>
 
-      <!--  Product Configuration -->
+      <!--  Product Configuration * -->
       <div class="section">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-xxl-9">
+            <div class="col-xxl-9 p-0">
               <div class="prd__config">
                 <div class="row justify-content-center">
-                  <div class="col-xl-4">
+                  <div class="col-md-5 col-xl-4">
                     <div class="prd__config--info">
                       <div class="h2 title">
                         Product Configuration
@@ -47,7 +147,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-4 offset-xl-1">
+                  <div class="col-md-6 col-xl-4 offset-xl-1">
                     <div class="prd__specs">
                       <div class="prd__specs--name">
                         HBM23040K-UN4-ACR-BK
@@ -106,7 +206,7 @@
                       <div class="btn btn-2 btn-fifth"><b>Download Specs</b></div>
                     </div>
                   </div>
-                  <div class="col-xl-9">
+                  <div class="col-md-11 col-xl-9">
                     <div class="caption white">
                       Not all configurations and options are stocked, and some may require minimum order quantities and lead times to produce. To inquire about availability, please call your local point of sale or contact us directly.
                     </div>
@@ -119,11 +219,11 @@
         <div class="spacer-md"></div>
       </div>
 
-      <!--  Product Specifications -->
+      <!--  Product Specifications  *-->
       <div class="section">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-xxl-7 col-xl-8 col-md-11">
+            <div class="col-xxl-7 col-xl-9 col-md-11">
               <div class="accordion-inner">
                 <div class="h2 title text-upper">Product Specifications</div>
 
@@ -338,7 +438,7 @@
       <div class="section">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-xxl-7 col-xl-8 col-md-11">
+            <div class="col-xxl-7 col-xl-9 col-md-11">
               <div class="accessories-title h2 title text-upper">Accessories</div>
 
               <div class="swiper-entry accessories-slider pgn-1">
@@ -468,7 +568,7 @@
         <div class="spacer-md"></div>
       </div>
 
-      <!--  Related Products section -->
+      <!--  Related Products section * -->
       <div class="section" style="background-color: var(--clr-grey-100);">
         <div class="spacer-sm"></div>
         <div class="container">
