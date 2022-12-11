@@ -276,7 +276,7 @@ html.ctg-open-filter body {overflow: hidden;}
 .separator {height: 1px;}
 .bg-grey-500 {background-color: var(--clr-grey-500);}
 .account-sec {background-size: cover;background-repeat: no-repeat;background-position: center;background-attachment: fixed;}
-.account-inner {display: -ms-grid;display: grid;padding: 130px 0;min-height: calc(100vh - var(--header-top) - var(--header-bottom));}
+.account-inner {display: -ms-grid;display: grid;padding: 65px 0;min-height: calc(100vh - var(--header-top) - var(--header-bottom));}
 .account-inner > * {margin: auto;}
 .account-wrapper {width: 100%;background-color: var(--clr-white);border-radius: 16px;}
 .account-wrapper.size-1 {max-width: 670px;}
