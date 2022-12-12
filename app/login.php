@@ -53,7 +53,7 @@
 
                             <div class="text dark-blue text-center">
                                 Don’t have an account?
-                                <a href="#">Create an Account</a>
+                                <a href="register.php">Create an Account</a>
                             </div>
                         </div>
                     </div>
