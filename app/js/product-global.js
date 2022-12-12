@@ -95,16 +95,19 @@ jQuery(function($) {
   });
 
 
-  function inc() {
-    let number = document.querySelector('[name="number"]');
-    number.value = parseInt(number.value) + 1;
-  }
+  // 
+  $(document).on('click', '.in-btn-dec', function() {
+    let number = $(this).closest('.in-inner').find('input[name="number"]');
+    number.val(+number.val() + 1);
+  })
 
-  function dec() {
-    let number = document.querySelector('[name="number"]');
-    if (parseInt(number.value) > 0) {
-      number.value = parseInt(number.value) - 1;
+  $(document).on('click', '.in-btn-inc', function() {
+    let number = $(this).closest('.in-inner').find('input[name="number"]');
+    if (+number.val() > 0) {
+      number.val(+number.val() - 1);
     }
-  }
+  })
+
+
 
 });

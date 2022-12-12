@@ -14,7 +14,7 @@
     <main>
 
       <!-- Product Details -->
-      <div class="section">
+      <div class="section prd__detail--section">
         <div class="btn-back-container container">
           <div class="btn-icon btn-back"><i></i><b>Back</b></div>
         </div>
@@ -22,15 +22,15 @@
 
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-xxl-8 col-xl-9 col-md-11 p-xl-0">
+            <div class="col-xxl-8 col-xl-10 col-md-11 p-xl-0">
               <div class="row justify-content-center">
 
                 <!-- left -->
-                <div class="col-sm-6 col-xl-5">
+                <div class="col-md-6 col-xl-5">
                   <div class="swiper-thumbs prd__detail--slider">
                     <!-- top slider -->
                     <div class="swiper-entry swiper-thumbs-top">
-                      <div class="swiper-container" data-options='{"watchSlidesVisibility": true, "watchSlidesProgress": true}'>
+                      <div class="swiper-container" data-options='{"watchSlidesVisibility": true, "watchSlidesProgress": true, "spaceBetween": 30, "breakpoints":{"768":{"spaceBetween": 0}} }'>
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
                             <div class="prd__detail--img">
@@ -67,7 +67,7 @@
 
                     <!-- bottom slider -->
                     <div class="swiper-entry swiper-thumbs-bottom">
-                      <div class="swiper-container" data-options='{"slidesPerView": 3, "spaceBetween": 5, "watchSlidesVisibility": true, "watchSlidesProgress": true, "breakpoints":{"767":{"spaceBetween": 10, "slidesPerView": 3}}}'>
+                      <div class="swiper-container" data-options='{"slidesPerView": 3, "spaceBetween": 5, "watchSlidesVisibility": true, "watchSlidesProgress": true, "breakpoints":{"768":{"spaceBetween": 10, "slidesPerView": 3}}}'>
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
                             <div class="prd__detail--thumbs">
@@ -101,7 +101,7 @@
                 </div>
 
                 <!-- right -->
-                <div class="col-sm-6 col-xl-5 offset-xl-1">
+                <div class="col-md-6 col-xl-6 offset-xl-1">
                   <div class="prd__detail">
                     <h1 class="prd__detail--name h2">
                       HBM23040K-UN4-ACR-BK
@@ -160,28 +160,26 @@
                         </div>
                       </div>
                     </div>
-
                     <div class="prd__detail--controls">
-                      <div class="in-wrap">
-                        <div class="in-placeholder">Quantity</div>
-                        <div class="in-inner">
-                          <button class="in-btn-dec"></button>
-                          <input name="number" type="text" readonly value="0">
-                          <button class="in-btn-inc"></button>
+                      <div class="in-wrapper">
+                        <div class="in-wrap">
+                          <div class="in-placeholder">Quantity</div>
+                          <div class="in-inner">
+                            <button class="in-btn-dec"></button>
+                            <input class="in-input" name="number" type="number" value="0">
+                            <button class="in-btn-inc"></button>
+                          </div>
                         </div>
-                      </div>
-                      <div class="in-wrap">
-                        <div class="in-wrap-placeholder">Fixture Type (Optional)</div>
-                        <div class="in-inner">
-                          <input type="text">
+                        <div class="in-wrap">
+                          <div class="in-placeholder">Fixture Type (Optional)</div>
+                          <div class="in-inner">
+                            <input class="in-input" type="text">
+                          </div>
                         </div>
                       </div>
                     </div>
-
-
                     <div class="prd__detail--btn-wrap">
                       <button class="btn btn-2 btn-fourth"><b>Add to Basket</b></button>
-
                       <div class="tooltip">
                         <i>?</i>
                         <div class="tooltip-info">
@@ -189,7 +187,6 @@
                         </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
 
@@ -493,7 +490,24 @@
                   <div class="accordion">
                     <div class="accordion-title">Download <i class="plus"></i></div>
                     <div class="accordion-content">
-
+                      <div class="text">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td>TCA_IES_HBM (50.3 KB)</td>
+                              <td>
+                                <div class="btn btn-primary"><b>Download</b></div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>HBM Series_Installation Instructions (1.6 MB)</td>
+                              <td>
+                                <div class="btn btn-primary"><b>Download</b></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   </div>
                   <div class="accordion">
@@ -509,6 +523,8 @@
         </div>
         <div class="spacer-md"></div>
       </div>
+
+
 
       <!--  Accessories section  * -->
       <div class="section">
@@ -688,7 +704,7 @@
                         <div class="prd__item--name">HBX100</div>
                         <div class="prd__item--descr">HBX Series</div>
                         <div class="prd__item--view">
-                          <и>View</и>
+                          <b>View</b>
                         </div>
                       </a>
                     </div>
@@ -744,7 +760,7 @@
                         <div class="prd__item--name">HBX100</div>
                         <div class="prd__item--descr">HBX Series</div>
                         <div class="prd__item--view">
-                          <и>View</и>
+                          <b>View</b>
                         </div>
                       </a>
                     </div>
