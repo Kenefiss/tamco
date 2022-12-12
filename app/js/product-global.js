@@ -25,7 +25,7 @@ jQuery(function($) {
 
   $(document).on('click', '.load-more.card', function() {
     let th = $(this)
-    th.addClass('loading')
+    th.addClass('loading');
 
     // remove this when you use ajax
     setTimeout(function() {
@@ -66,7 +66,6 @@ jQuery(function($) {
   _functions.fixedFilter = function() {
     let winScr = $(window).scrollTop();
 
-    console.Console
 
     if ($('.ctg__mobile--section').length > 0) {
       let block = $('.ctg__mobile--block');
@@ -95,7 +94,7 @@ jQuery(function($) {
   });
 
 
-  // 
+  // Button "+" & "-"
   $(document).on('click', '.in-btn-dec', function() {
     let number = $(this).closest('.in-inner').find('input[name="number"]');
     number.val(+number.val() + 1);
@@ -107,6 +106,18 @@ jQuery(function($) {
       number.val(+number.val() - 1);
     }
   })
+
+
+  $(document).on('click', '.add-to-basket', function() {
+    let prdSec = $(this).closest('.prd__detail--section');
+    let prdName = prdSec.find('.prd__detail--name').text();
+
+    prdSec.find('.prd__informer .prd__informer--name b').text(prdName)
+    prdSec.find('.prd__informer').slideDown();
+  })
+
+
+
 
 
 

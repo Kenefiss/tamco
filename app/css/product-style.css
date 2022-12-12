@@ -210,6 +210,10 @@ html.ctg-open-filter body {overflow: hidden;}
 .prd__detail--thumbs {position: relative;padding-top: 100%;display: block;border-radius: 8px;background: var(--clr-grey-100);-webkit-transition: var(--transition);transition: var(--transition);outline: 1px solid transparent;outline-offset: -1px;}
 .prd__detail--thumbs img {position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);max-width: 86%;max-height: 86%;}
 .swiper-slide-thumb-active .prd__detail--thumbs {outline-color: var(--clr-dark-blue);background: transparent;}
+.prd__informer {display: none;}
+.prd__informer--inner {position: relative;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;width: 100%;padding: 25px 40px 25px 20px;background-color: var(--clr-grey-100);}
+.prd__informer--name {position: relative;padding-left: 30px;}
+.prd__informer--name:before {content: "";position: absolute;left: 3px;top: 4px;width: 6px;height: 12px;border-right: 2px solid var(--clr-dark-blue);border-bottom: 2px solid var(--clr-dark-blue);-webkit-transform: rotate(45deg);transform: rotate(45deg);}
 @media (max-width: 1199px) {
 .prd__detail--slider .swiper-thumbs-top .swiper-controls {display: none;}
 .prd__detail--img {padding-top: 100%;margin: 0;}
@@ -327,6 +331,10 @@ html.ctg-open-filter body {overflow: hidden;}
 .related-slider .swiper-button-prev {left: -25px;}
 .related-slider .swiper-button-next {right: -25px;}
 }
+/*--------------------*/
+/* - Basket           */
+/*--------------------*/
+.basket-section > .container > .row {--bs-gutter-x: 60px;}
 /*--------------------*/
 /* - Account          */
 /*--------------------*/
