@@ -1,5 +1,9 @@
 //*========================================
-//* 01 FILTERS                            =
+//* 01 CATEGORY                           =
+//*========================================
+//* 02 PRODUCT DETAIL                     =
+//*========================================
+//* 03 ACCOUNT                            =
 //*========================================
 
 
@@ -9,9 +13,9 @@
 jQuery(function($) {
   "use strict";
 
-  //*==============
-  //* 01 FILTERS  =
-  //*==============
+  //*===============
+  //* 01 CATEGORY  =
+  //*===============
   $(document).on('click', '.ctg__dropdown--title', function() {
     $(this).closest('.ctg__dropdown').toggleClass('active')
   })
@@ -37,7 +41,7 @@ jQuery(function($) {
     $('html').addClass('ctg-open-filter')
   })
 
-  $(document).on('click', '.ctg__mobile--overlay', function() {
+  $(document).on('click', '.ctg__mobile--overlay, .ctg__menu--wrap .btn-close', function() {
     $('html').removeClass('ctg-open-filter')
   })
 
@@ -117,7 +121,19 @@ jQuery(function($) {
   })
 
 
-
+  //*==============
+  //* 02 ACCOUNT  =
+  //*==============
+  $('.tab-toggle > div').on('click', function(e) {
+    var tab = $(this).closest('main').find('.tab');
+    var i = $(this).index();
+    $(this).addClass('active').siblings().removeClass('active');
+    tab.eq(i).siblings('.tab:visible').stop().finish().fadeOut(function() {
+      tab.eq(i).fadeIn(200);
+    });
+    e.preventDefault();
+    $(this).closest('.tab-nav').removeClass('active').find('.tab-title').text($(this).text());
+  });
 
 
 

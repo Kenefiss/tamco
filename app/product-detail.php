@@ -315,7 +315,6 @@
             <div class="col-xxl-7 col-xl-9 col-md-11">
               <div class="accordion-inner">
                 <div class="h2 title text-upper">Product Specifications</div>
-
                 <div class="accordion-wrapp">
                   <div class="accordion">
                     <div class="accordion-title">Performance <i class="plus"></i></div>
@@ -529,7 +528,24 @@
                   <div class="accordion">
                     <div class="accordion-title">Videos <i class="plus"></i></div>
                     <div class="accordion-content">
-
+                      <div class="text">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td>TCA_IES_HBM (50.3 KB)</td>
+                              <td>
+                                <div class="btn btn-primary"><b>Download</b></div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>HBM Series_Installation Instructions (1.6 MB)</td>
+                              <td>
+                                <div class="btn btn-primary"><b>Download</b></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -539,8 +555,6 @@
         </div>
         <div class="spacer-md"></div>
       </div>
-
-
 
       <!--  Accessories section  * -->
       <div class="section">

@@ -39,10 +39,92 @@
       <div class="section basket-section">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-6 col-11"></div>
-            <div class="col-lg-5 col-11">
+            <div class="col-xl-5 col-lg-6 col-11">
+              <div class="basket__prd--wrap">
+                <div class="h3 basket__title">Products</div>
 
-              <div class="basket__form"></div>
+                <div class="basket__prd--inner">
+                  <div class="basket__prd">
+                    <div class="basket__prd--img">
+                      <img src="img/basket-img-1.png" alt="" loading="lazy">
+                    </div>
+                    <div class="basket__prd--info">
+                      <div class="basket__prd--name h3">
+                        HBM23040K-UN4-ACR-BK
+                      </div>
+                      <ul class="basket__prd--opt">
+                        <li>HBM Series</li>
+                        <li>SKU: HBM23040K-UN4-ACR-BK</li>
+                        <li>CCT: 4000K</li>
+                        <li>Mounting: Suspended</li>
+                        <li>Voltage: 347-480 Vac</li>
+                        <li>Finish: Black</li>
+                        <li>Option: Acrylic Refractor</li>
+                      </ul>
+                      <div class="basket__prd--btn-wrap">
+                        <div class="in-wrapper">
+                          <div class="in-wrap">
+                            <div class="in-placeholder">Quantity</div>
+                            <div class="in-inner">
+                              <button class="in-btn-dec"></button>
+                              <input class="in-input" name="number" type="number" value="0">
+                              <button class="in-btn-inc"></button>
+                            </div>
+                          </div>
+                          <div class="in-wrap">
+                            <div class="in-placeholder">Fixture Type (Optional)</div>
+                            <div class="in-inner">
+                              <input class="in-input" type="text" value="Aliqueteget">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btn-close type-2"></div>
+                  </div>
+                  <div class="basket__prd">
+                    <div class="basket__prd--img">
+                      <img src="img/basket-img-2.png" alt="" loading="lazy">
+                    </div>
+                    <div class="basket__prd--info">
+                      <div class="basket__prd--name h3">
+                        AR-N7S
+                      </div>
+                      <ul class="basket__prd--opt">
+                        <li>Photocontrols Series</li>
+                        <li>SKU AR-N7S</li>
+                      </ul>
+                      <div class="basket__prd--btn-wrap">
+                        <div class="in-wrapper">
+                          <div class="in-wrap">
+                            <div class="in-placeholder">Quantity</div>
+                            <div class="in-inner">
+                              <button class="in-btn-dec"></button>
+                              <input class="in-input" name="number" type="number" value="0">
+                              <button class="in-btn-inc"></button>
+                            </div>
+                          </div>
+                          <div class="in-wrap">
+                            <div class="in-placeholder">Fixture Type (Optional)</div>
+                            <div class="in-inner">
+                              <input class="in-input" type="text" value="Aliqueteget">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btn-close type-2"></div>
+                  </div>
+                </div>
+
+                <button class="btn btn-2 btn-primary">
+                  <b>Clear Basket</b>
+                </button>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-lg-5 col-11">
+
+              <div class="prj__save-wrap"></div>
 
               <form class="form-wrapp basket__form">
                 <div class="h3 title">Request a Quote</div>
@@ -50,37 +132,40 @@
                 <div class="form-block">
                   <div class="h6 title">Project Info</div>
 
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="input-field-wrapp" data-descr="Description Text">
-                        <input class="input" type="text" name="first_name" required="">
-                        <div class="input-placeholder">First Name</div>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="input-field-wrapp">
-                        <input class="input" type="text" name="last_name" required="">
-                        <div class="input-placeholder">Last Name</div>
-                      </div>
-                    </div>
+                  <div class="input-field-wrapp">
+                    <input class="input" type="text" name="client name">
+                    <div class="input-placeholder">Client Name</div>
+                  </div>
+
+                  <div class="input-field-wrapp">
+                    <input class="input" type="text" name="project name">
+                    <div class="input-placeholder">Project Name</div>
                   </div>
                 </div>
 
                 <div class="form-block">
                   <div class="h6 title">Customer Info</div>
 
-                  <div class="input-field-wrapp">
-                    <input class="input" type="text" name="company">
-                    <div class="input-placeholder">Company Name <span>(Optional)</span></div>
-                  </div>
-
-                  <div class="input-field-wrapp">
-                    <input class="input" type="email" name="email" required="">
-                    <div class="input-placeholder">Email Address</div>
-                    <div class="input-error">The email must contain the "@" sign</div>
-                  </div>
-
                   <div class="row">
+                    <div class="col-sm-6">
+                      <div class="input-field-wrapp">
+                        <input class="input" type="text" name="first name" required>
+                        <div class="input-placeholder">First Name*</div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="input-field-wrapp">
+                        <input class="input" type="text" name="last name" required>
+                        <div class="input-placeholder">Last Name*</div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="input-field-wrapp">
+                        <input class="input" type="email" name="email" required="">
+                        <div class="input-placeholder">Email Address</div>
+                        <div class="input-error">The email must contain the "@" sign</div>
+                      </div>
+                    </div>
                     <div class="col-sm-6">
                       <div class="input-field-wrapp">
                         <input class="input" type="text" name="phone" required="">
@@ -90,12 +175,37 @@
                         </div>
                       </div>
                     </div>
+                    <div class="col-sm-6">
+                      <div class="input-field-wrapp">
+                        <input class="input" type="text" name="company">
+                        <div class="input-placeholder">Company</div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="input-field-wrapp">
+                        <input class="input" type="text" name="Street">
+                        <div class="input-placeholder">Street</div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+
+                    </div>
+                    <div class="col-sm-6">
+
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="input-field-wrapp">
+                        <input class="input" type="text" name="city">
+                        <div class="input-placeholder">City</div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+
+                    </div>
                   </div>
 
-                  <div class="input-field-wrapp">
-                    <input class="input" type="text" name="city">
-                    <div class="input-placeholder">City</div>
-                  </div>
+
+
 
                   <div class="row">
                     <div class="col-sm-6">
@@ -109,27 +219,15 @@
                             <option value="5">Country 5</option>
                             <option value="6">Country 6</option>
                           </select>
-                          <p class="CaptionCont SelectBox SelectBox" title=" Country"><span> Country</span><label><i></i></label></p>
-                          <div class="optWrapper">
-                            <ul class="options">
-                              <li class="opt selected"><label>Country</label></li>
-                              <li class="opt"><label>Country 1</label></li>
-                              <li class="opt"><label>Country 2</label></li>
-                              <li class="opt"><label>Country 3</label></li>
-                              <li class="opt"><label>Country 4</label></li>
-                              <li class="opt"><label>Country 5</label></li>
-                              <li class="opt"><label>Country 6</label></li>
-                            </ul>
-                          </div>
                         </div>
 
                         <div class="input-placeholder in-select">Country</div>
                       </div>
                     </div>
                     <div class="col-sm-6">
-
                       <div class="input-field-wrapp">
-                        <div class="SumoSelect sumo_state" tabindex="0" role="button" aria-expanded="false"><select name="state" class="SelectBox SumoUnder" tabindex="-1">
+                        <div class="SumoSelect sumo_state" tabindex="0" role="button" aria-expanded="false">
+                          <select name="state" class="SelectBox SumoUnder" tabindex="-1">
                             <option value="State">State</option>
                             <option value="1">State 1</option>
                             <option value="2">State 2</option>
@@ -137,17 +235,6 @@
                             <option value="2">State 4</option>
                             <option value="2">State 5</option>
                           </select>
-                          <p class="CaptionCont SelectBox SelectBox" title=" State"><span> State</span><label><i></i></label></p>
-                          <div class="optWrapper">
-                            <ul class="options">
-                              <li class="opt selected"><label>State</label></li>
-                              <li class="opt"><label>State 1</label></li>
-                              <li class="opt"><label>State 2</label></li>
-                              <li class="opt"><label>State 3</label></li>
-                              <li class="opt"><label>State 4</label></li>
-                              <li class="opt"><label>State 5</label></li>
-                            </ul>
-                          </div>
                         </div>
 
                         <div class="input-placeholder in-select">State</div>
@@ -225,7 +312,6 @@
               </form>
             </div>
           </div>
-
         </div>
       </div>
 
