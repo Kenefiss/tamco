@@ -21,6 +21,22 @@
         <div class="spacer-sm"></div>
 
         <div class="container">
+          <!-- Product informer -->
+          <div class="row justify-content-center">
+            <div class="col-xxl-9 p-xxl-0 col-xl-10 col-md-11">
+              <div class="prd__informer">
+                <div class="prd__informer--inner">
+                  <div class="prd__informer--name">
+                    <b></b> was added to basket
+                  </div>
+                  <a class="simple-link" href="products-basket.php">
+                    <b>Proceed to Basket</b><i></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="row justify-content-center">
             <div class="col-xxl-8 col-xl-10 col-md-11 p-xl-0">
               <div class="row justify-content-center">
@@ -114,7 +130,7 @@
                       </div>
                     </div>
                     <div class="prd__detail--btn-wrap">
-                      <button class="btn btn-2 btn-fourth"><b>Add to Basket</b></button>
+                      <button class="btn btn-2 btn-fourth add-to-basket"><b>Add to Basket</b></button>
                       <div class="tooltip">
                         <i>?</i>
                         <div class="tooltip-info">
