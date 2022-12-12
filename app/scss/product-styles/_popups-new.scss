@@ -1,3 +1,189 @@
-.popup {
-  font-size: 0;
+// .popup-container.size-1 { max-width: 1485px; }
+// .popup-container.size-3 { max-width: 610px; }
+// .popup-container.size-4 { max-width: 550px; }
+// .popup-container.size-5 { max-width: 510px; }
+// .popup-container.size-6 { max-width: 415px; }
+
+/*--------------------*/
+/* - Popups           */
+/*--------------------*/
+@media (min-width: 768px) {
+  .mb-15 {
+    margin-bottom: 15px;
+  }
+
+  .mb-25 {
+    margin-bottom: 25px;
+  }
+
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .mb-35 {
+    margin-bottom: 35px;
+  }
+
+  .mb-40 {
+    margin-bottom: 40px;
+  }
+}
+
+.popup-align {
+
+  &.type-2 {
+    padding: 75px 80px;
+  }
+
+  &.type-3 {
+    padding: 40px;
+  }
+
+  &.type-4 {
+    padding: 65px 85px 55px 85px;
+  }
+
+  &.type-5 {
+    padding: 60px 40px 45px 40px;
+  }
+
+  &.type-6 {
+    padding: 40px 40px 90px 40px;
+  }
+
+  > .icon {
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    &.size-1 {
+      width: 80px;
+      height: 80px;
+    }
+
+    &.size-2 {
+      width: 96px;
+      height: 96px;
+    }
+  }
+
+  .btn {
+    margin-top: 35px;
+  }
+
+  .form-wrapp {
+    .btn {
+      margin-top: 0;
+    }
+  }
+}
+
+.project-list-wrapp {
+  margin-bottom: 0;
+}
+
+.project-list {
+  overflow: auto;
+  max-height: 330px;
+  font-size: 17px;
+  line-height: 1.22em;
+  font-weight: 400;
+  letter-spacing: 0.0025em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--clr-dark-blue);
+
+  li {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon {
+    position: relative;
+    width: 73px;
+    height: 73px;
+    flex-shrink: 0;
+    margin-right: 10px;
+
+    p {
+      position: absolute;
+      top: calc(50% + 2px);
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  span {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.19em;
+    font-weight: 700;
+    letter-spacing: 0.005em;
+    text-transform: capitalize;
+  }
+}
+
+.project-list-btn {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: auto;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  border-top: 1px solid var(--clr-grey-500);
+  background-color: var(--clr-white);
+  border-radius: 0 0 16px 16px;
+  padding: 15px 40px;
+}
+
+@media (max-width: 767px) {
+  .popup-align {
+    &.type-2 {
+      padding: 75px 40px;
+    }
+
+    &.type-3 {
+      padding: 40px 30px;
+    }
+
+    &.type-4 {
+      padding: 65px 30px 55px 30px;
+    }
+
+    &.type-5 {
+      padding: 45px 15px;
+    }
+
+    &.type-6 {
+      padding: 40px 15px 80px 15px;
+    }
+
+    > .icon {
+      &.size-2 {
+        width: 84px;
+        height: 84px;
+      }
+    }
+
+    .btn {
+      margin-top: 15px;
+      min-width: auto;
+      width: 100%;
+    }
+  }
+
+  .project-list {
+    max-height: 270px;
+    font-size: 14px;
+
+    .icon {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .project-list-btn {
+    padding: 15px;
+  }
 }

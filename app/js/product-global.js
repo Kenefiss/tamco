@@ -62,6 +62,18 @@ jQuery(function($) {
     });
   })
 
+  $(document).on('blur', '.input-field-wrapp .input[required]', function () {
+    let form = $(this).closest('.form-wrapp');
+
+		if ($(this).val().trim()) {
+			form.find('.error-message').addClass('d-none');
+      form.find('.btn-submit').removeClass('btn-disabled');
+		} else {
+			form.find('.error-message').removeClass('d-none');
+      form.find('.btn-submit').addClass('btn-disabled');
+		}
+	});
+
 
   $(document).on('click', '.ctg__menu--overlay', function() {
     $('html').removeClass('ctg-open-filter')

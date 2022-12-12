@@ -78,7 +78,7 @@
                                 </div>
 
                                 <div class="form-block text-center">
-                                    <button class="btn btn-2 btn-fourth btn-submit" type="submit">
+                                    <button class="btn btn-2 btn-fourth btn-submit open-popup" data-rel="reg-popup" type="submit">
                                         <b>Create Account</b>
                                     </button>
                                 </div>
@@ -99,7 +99,9 @@
     </div>
 
 
-    <div class="popup-wrapper" id="popups"></div>
+    <div class="popup-wrapper" id="popups">
+        <?php include 'inc/_popups.php';?>
+    </div>
 
     <?php include 'inc/_bottom.php';?>
 </body>

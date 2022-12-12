@@ -33,7 +33,7 @@
                                 </div>
 
                                 <div class="form-block text-center">
-                                    <button class="btn btn-2 btn-fourth btn-submit">
+                                    <button class="btn btn-2 btn-fourth btn-submit open-popup" data-rel="reset-link">
                                         <b>Send Reset Link</b>
                                     </button>
                                 </div>
@@ -43,7 +43,7 @@
 
                             <div class="text dark-blue text-center">
                                 Don’t have an account?
-                                <a href="#">Create an Account</a>
+                                <a href="register.php">Create an Account</a>
                                 or
                                 <a href="login.php">Log In</a>
                                 if you already have an account.
@@ -58,7 +58,9 @@
     </div>
 
 
-    <div class="popup-wrapper" id="popups"></div>
+    <div class="popup-wrapper" id="popups">
+        <?php include 'inc/_popups.php';?>
+    </div>
 
     <?php include 'inc/_bottom.php';?>
 </body>
