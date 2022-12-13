@@ -87,11 +87,11 @@
                     <a class="basket__prd--img" href="product-detail.php">
                       <img src="img/basket-img-2.png" alt="" loading="lazy">
                     </a>
-                    <div class="basket__prd--info">
+                    <div class="basket__prd--info" href="product-detail.php">
                       <a class="basket__prd--name h3">
                         AR-N7S
                       </a>
-                      <ul class="basket__prd--opt" href="product-detail.php">
+                      <ul class="basket__prd--opt">
                         <li>Photocontrols Series</li>
                         <li>SKU AR-N7S</li>
                       </ul>

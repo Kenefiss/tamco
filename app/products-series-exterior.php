@@ -82,7 +82,7 @@
                     </div>
                     <div class="prd__item--name">ARPS35</div>
                     <div class="prd__item--descr">ARPS Series</div>
-                    <div class="prd__item--view"><a>View</a></div>
+                    <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class=" col-md-3 col-sm-4 col-6">

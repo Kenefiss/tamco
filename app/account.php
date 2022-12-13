@@ -114,9 +114,9 @@
                       </div>
                     </div>
                   </div>
-                  <div class="row project-wrapp">
+                  <div class="row project-card-row">
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-card">
+                      <a class="project-card" href="project-detail.php">
                         <div class="project-folder">
                           <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">AP</div>
@@ -127,10 +127,10 @@
                           <p>Location:<span>Toronto</span></p>
                           <p>Client:<span>David Scherer</span></p>
                         </div>
-                      </div>
+                      </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-card">
+                      <a class="project-card" href="project-detail.php">
                         <div class="project-folder">
                           <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">X</div>
@@ -141,10 +141,10 @@
                           <p>Location:<span>Toronto</span></p>
                           <p>Client:<span>David Scherer</span></p>
                         </div>
-                      </div>
+                      </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-card">
+                      <a class="project-card" href="project-detail.php">
                         <div class="project-folder">
                           <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">P3</div>
@@ -155,10 +155,10 @@
                           <p>Location:<span>Toronto</span></p>
                           <p>Client:<span>Nelson Jimenez</span></p>
                         </div>
-                      </div>
+                      </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-card">
+                      <a class="project-card" href="project-detail.php">
                         <div class="project-folder">
                           <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">SP</div>
@@ -169,10 +169,10 @@
                           <p>Location:<span>Toronto</span></p>
                           <p>Client:<span>David Scherer</span></p>
                         </div>
-                      </div>
+                      </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-card">
+                      <a class="project-card" href="project-detail.php">
                         <div class="project-folder">
                           <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">PH</div>
@@ -183,10 +183,10 @@
                           <p>Location:<span>Toronto</span></p>
                           <p>Client:<span>David Scherer</span></p>
                         </div>
-                      </div>
+                      </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-card">
+                      <a class="project-card" href="project-detail.php">
                         <div class="project-folder">
                           <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">AP</div>
@@ -197,10 +197,10 @@
                           <p>Location:<span>Toronto</span></p>
                           <p>Client:<span>David Scherer</span></p>
                         </div>
-                      </div>
+                      </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-card">
+                      <a class="project-card" href="project-detail.php">
                         <div class="project-folder">
                           <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">P2</div>
@@ -211,10 +211,10 @@
                           <p>Location:<span>Toronto</span></p>
                           <p>Client:<span>David Scherer</span></p>
                         </div>
-                      </div>
+                      </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-card">
+                      <a class="project-card" href="project-detail.php">
                         <div class="project-folder">
                           <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">P1</div>
@@ -225,7 +225,7 @@
                           <p>Location:<span>Toronto</span></p>
                           <p>Client:<span>David Scherer</span></p>
                         </div>
-                      </div>
+                      </a>
                     </div>
                   </div>
 
@@ -240,7 +240,7 @@
               <div class="col-12 col-lg-10 col-xl-6 col-xxl-4">
                 <div class="account-block">
                   <div class="h2 title dark-blue">Hello Robert C.</div>
-                  <form class="account-form">
+                  <form class="account-form form-block">
                     <div class="row">
                       <div class="col-sm-6">
                         <div class="input-field-wrapp">
@@ -255,8 +255,6 @@
                           <div class="input-placeholder">Company Name <span>(Optional)</span></div>
                         </div>
                       </div>
-                    </div>
-                    <div class="row">
                       <div class="col-sm-6">
                         <div class="input-field-wrapp">
                           <select name="country" class="SelectBox">
@@ -284,20 +282,24 @@
                           <div class="input-placeholder in-select">Province</div>
                         </div>
                       </div>
-                    </div>
-                    <div class="input-field-wrapp">
-                      <input class="input" type="text" name="city">
-                      <div class="input-placeholder">City</div>
-                    </div>
-                    <div class="input-field-wrapp">
-                      <input class="input" type="text" name="address1">
-                      <div class="input-placeholder">Street Address</div>
-                    </div>
-                    <div class="input-field-wrapp">
-                      <input class="input" type="text" name="address2">
-                      <div class="input-placeholder">Street Address <span>(Optional)</span></div>
-                    </div>
-                    <div class="row">
+                      <div class="col-12">
+                        <div class="input-field-wrapp">
+                          <input class="input" type="text" name="city">
+                          <div class="input-placeholder">City</div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="input-field-wrapp">
+                          <input class="input" type="text" name="address1">
+                          <div class="input-placeholder">Street Address</div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="input-field-wrapp">
+                          <input class="input" type="text" name="address2">
+                          <div class="input-placeholder">Street Address <span>(Optional)</span></div>
+                        </div>
+                      </div>
                       <div class="col-sm-6">
                         <div class="input-field-wrapp">
                           <input class="input" type="text" name="postal">
@@ -305,8 +307,9 @@
                         </div>
                       </div>
                     </div>
-                    <div class="text-left">
-                      <div class="btn btn-2 btn-fourth"><b>Save</b><input type="submit" value="Send" class="has-spinner" /></div>
+                    <div class="btn btn-2 btn-fourth">
+                      <b>Save</b>
+                      <input type="submit" value="Send" class="has-spinner" />
                     </div>
                   </form>
                 </div>

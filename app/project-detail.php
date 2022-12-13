@@ -31,28 +31,14 @@
                       <h1 class="h2 title fw-400 dark-blue">Project 3</h1>
                       <div class="btn-wrapper">
                         <div class="btn-icon open-popup" data-rel="edit-project">
-                          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)">
-                              <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25ZM21.41 6.34l-3.75-3.75-2.53 2.54 3.75 3.75 2.53-2.54Z" fill="#193768"></path>
-                            </g>
-                            <defs>
-                              <clipPath id="a">
-                                <path fill="#fff" d="M0 0h24v24H0z"></path>
-                              </clipPath>
-                            </defs>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 17.25V21H6.75L17.81 9.94L14.06 6.19L3 17.25ZM21.41 6.34L17.66 2.59L15.13 5.13L18.88 8.88L21.41 6.34V6.34Z" fill="#193768" />
                           </svg>
                         </div>
 
                         <div class="btn-icon open-popup" data-rel="delete-project">
-                          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)">
-                              <path d="M6 21h12V7H6v14Zm2.46-9.12 1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12ZM15.5 4l-1-1h-5l-1 1H5v2h14V4h-3.5Z" fill="#193768"></path>
-                            </g>
-                            <defs>
-                              <clipPath id="a">
-                                <path fill="#193768" d="M0 0h24v24H0z"></path>
-                              </clipPath>
-                            </defs>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 21H18V7H6V21ZM8.46 11.88L9.87 10.47L12 12.59L14.12 10.47L15.53 11.88L13.41 14L15.53 16.12L14.12 17.53L12 15.41L9.88 17.53L8.47 16.12L10.59 14L8.46 11.88V11.88ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z" fill="#193768" />
                           </svg>
                         </div>
                       </div>
@@ -131,41 +117,20 @@
                     <div>
                       <div class="btn-icon-wrapper">
                         <a href="doc/simple.pdf" class="btn-icon" download>
-                          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)">
-                              <path d="M19 9h-4V3H9v6H5l7 7 7-7ZM5 18v2h14v-2H5Z" fill="#193768"></path>
-                            </g>
-                            <defs>
-                              <clipPath id="a">
-                                <path fill="#193768" d="M0 0h24v24H0z"></path>
-                              </clipPath>
-                            </defs>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 9H15V3H9V9H5L12 16L19 9ZM5 18V20H19V18H5Z" fill="#193768" />
                           </svg>
                           <span class="btn-tooltip">Download Product Specs</span>
                         </a>
                         <div class="btn-icon btn-edit">
-                          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)">
-                              <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25ZM21.41 6.34l-3.75-3.75-2.53 2.54 3.75 3.75 2.53-2.54Z" fill="#193768"></path>
-                            </g>
-                            <defs>
-                              <clipPath id="a">
-                                <path fill="#fff" d="M0 0h24v24H0z"></path>
-                              </clipPath>
-                            </defs>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 17.25V21H6.75L17.81 9.94L14.06 6.19L3 17.25ZM21.41 6.34L17.66 2.59L15.13 5.13L18.88 8.88L21.41 6.34V6.34Z" fill="#193768" />
                           </svg>
                           <span class="btn-tooltip">Edit Product Specs</span>
                         </div>
                         <div class="btn-icon btn-remove">
-                          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)">
-                              <path d="M6 21h12V7H6v14Zm2.46-9.12 1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12ZM15.5 4l-1-1h-5l-1 1H5v2h14V4h-3.5Z" fill="#193768"></path>
-                            </g>
-                            <defs>
-                              <clipPath id="a">
-                                <path fill="#193768" d="M0 0h24v24H0z"></path>
-                              </clipPath>
-                            </defs>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 21H18V7H6V21ZM8.46 11.88L9.87 10.47L12 12.59L14.12 10.47L15.53 11.88L13.41 14L15.53 16.12L14.12 17.53L12 15.41L9.88 17.53L8.47 16.12L10.59 14L8.46 11.88V11.88ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z" fill="#193768" />
                           </svg>
                           <span class="btn-tooltip">Delete Product</span>
                         </div>
@@ -174,28 +139,14 @@
                       <div class="btn-icon-wrapper hide">
                         <div class="btn-icon btn-save">
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)">
-                              <path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17Z" fill="#193768" />
-                            </g>
-                            <defs>
-                              <clipPath id="a">
-                                <path fill="#193768" d="M0 0h24v24H0z" />
-                              </clipPath>
-                            </defs>
+                            <path d="M9.00016 16.17L4.83016 12L3.41016 13.41L9.00016 19L21.0002 7L19.5902 5.59L9.00016 16.17Z" fill="#193768" />
                           </svg>
                           <span class="btn-tooltip">Save</span>
                         </div>
 
                         <div class="btn-icon btn-remove">
-                          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)">
-                              <path d="M6 21h12V7H6v14Zm2.46-9.12 1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12ZM15.5 4l-1-1h-5l-1 1H5v2h14V4h-3.5Z" fill="#193768"></path>
-                            </g>
-                            <defs>
-                              <clipPath id="a">
-                                <path fill="#193768" d="M0 0h24v24H0z"></path>
-                              </clipPath>
-                            </defs>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 21H18V7H6V21ZM8.46 11.88L9.87 10.47L12 12.59L14.12 10.47L15.53 11.88L13.41 14L15.53 16.12L14.12 17.53L12 15.41L9.88 17.53L8.47 16.12L10.59 14L8.46 11.88V11.88ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z" fill="#193768" />
                           </svg>
                           <span class="btn-tooltip">Delete Product</span>
                         </div>
@@ -234,41 +185,20 @@
                     <div>
                       <div class="btn-icon-wrapper">
                         <a href="doc/simple.pdf" class="btn-icon" download>
-                          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)">
-                              <path d="M19 9h-4V3H9v6H5l7 7 7-7ZM5 18v2h14v-2H5Z" fill="#193768"></path>
-                            </g>
-                            <defs>
-                              <clipPath id="a">
-                                <path fill="#193768" d="M0 0h24v24H0z"></path>
-                              </clipPath>
-                            </defs>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 9H15V3H9V9H5L12 16L19 9ZM5 18V20H19V18H5Z" fill="#193768" />
                           </svg>
                           <span class="btn-tooltip">Download Product Specs</span>
                         </a>
                         <div class="btn-icon btn-edit">
-                          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)">
-                              <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25ZM21.41 6.34l-3.75-3.75-2.53 2.54 3.75 3.75 2.53-2.54Z" fill="#193768"></path>
-                            </g>
-                            <defs>
-                              <clipPath id="a">
-                                <path fill="#fff" d="M0 0h24v24H0z"></path>
-                              </clipPath>
-                            </defs>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 17.25V21H6.75L17.81 9.94L14.06 6.19L3 17.25ZM21.41 6.34L17.66 2.59L15.13 5.13L18.88 8.88L21.41 6.34V6.34Z" fill="#193768" />
                           </svg>
                           <span class="btn-tooltip">Edit Product Specs</span>
                         </div>
                         <div class="btn-icon btn-remove">
-                          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)">
-                              <path d="M6 21h12V7H6v14Zm2.46-9.12 1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12ZM15.5 4l-1-1h-5l-1 1H5v2h14V4h-3.5Z" fill="#193768"></path>
-                            </g>
-                            <defs>
-                              <clipPath id="a">
-                                <path fill="#193768" d="M0 0h24v24H0z"></path>
-                              </clipPath>
-                            </defs>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 21H18V7H6V21ZM8.46 11.88L9.87 10.47L12 12.59L14.12 10.47L15.53 11.88L13.41 14L15.53 16.12L14.12 17.53L12 15.41L9.88 17.53L8.47 16.12L10.59 14L8.46 11.88V11.88ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z" fill="#193768" />
                           </svg>
                           <span class="btn-tooltip">Delete Product</span>
                         </div>
@@ -277,28 +207,14 @@
                       <div class="btn-icon-wrapper hide">
                         <div class="btn-icon btn-save">
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)">
-                              <path d="M9 16.17 4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17Z" fill="#193768" />
-                            </g>
-                            <defs>
-                              <clipPath id="a">
-                                <path fill="#193768" d="M0 0h24v24H0z" />
-                              </clipPath>
-                            </defs>
+                            <path d="M9.00016 16.17L4.83016 12L3.41016 13.41L9.00016 19L21.0002 7L19.5902 5.59L9.00016 16.17Z" fill="#193768" />
                           </svg>
                           <span class="btn-tooltip">Save</span>
                         </div>
 
                         <div class="btn-icon btn-remove">
-                          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#a)">
-                              <path d="M6 21h12V7H6v14Zm2.46-9.12 1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12ZM15.5 4l-1-1h-5l-1 1H5v2h14V4h-3.5Z" fill="#193768"></path>
-                            </g>
-                            <defs>
-                              <clipPath id="a">
-                                <path fill="#193768" d="M0 0h24v24H0z"></path>
-                              </clipPath>
-                            </defs>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 21H18V7H6V21ZM8.46 11.88L9.87 10.47L12 12.59L14.12 10.47L15.53 11.88L13.41 14L15.53 16.12L14.12 17.53L12 15.41L9.88 17.53L8.47 16.12L10.59 14L8.46 11.88V11.88ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z" fill="#193768" />
                           </svg>
                           <span class="btn-tooltip">Delete Product</span>
                         </div>

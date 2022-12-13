@@ -51,19 +51,6 @@
   margin-bottom: 10px;
 }
 
-.account-form .row {
-  margin-left: -9px;
-  margin-right: -9px;
-}
-
-.account-form .row>div[class*=col] {
-  padding: 0 9px;
-}
-
-.account-form .input-field-wrapp {
-  margin-bottom: 17px;
-}
-
 .account-form .btn {
   margin-top: 13px;
   min-width: 166px;
@@ -90,7 +77,6 @@
   cursor: pointer;
   font-size: 24px;
   line-height: 30px;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
@@ -104,7 +90,9 @@
   margin: 70px 0 140px;
 }
 
-/*tabs*/
+/*--------------------*/
+/* - Account Tabs     */
+/*--------------------*/
 .tab-title {
   position: relative;
   display: none;
@@ -164,7 +152,6 @@
   font-weight: 400;
   text-transform: capitalize;
   border-bottom: 5px solid transparent;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
@@ -225,24 +212,21 @@
   justify-content: space-between;
 }
 
-/*project-wrap*/
-.row.project-wrapp {
-  margin-left: -12px;
-  margin-right: -12px;
-}
-
-.row.project-wrapp>div[class*=col] {
-  padding: 0 12px;
-  margin-bottom: 30px;
+/*--------------------*/
+/* - Project cards    */
+/*--------------------*/
+.project-card-row {
+  --bs-gutter-x: 24px;
+  --bs-gutter-y: 35px;
 }
 
 .project-card {
+  display: block;
   position: relative;
   height: 100%;
   border: 1px solid rgba(25, 55, 104, 0.2);
   border-radius: 8px;
   padding: 35px 25px 25px;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
   cursor: pointer;
 }
@@ -280,7 +264,6 @@
   line-height: 19px;
   letter-spacing: 0.005em;
   color: var(--clr-dark-blue);
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
@@ -302,7 +285,6 @@
   overflow: initial;
 }
 
-/*media*/
 @media(min-width:1200px) {
   .tab-nav .tab-toggle div:hover .tab-caption {
     border-bottom-color: #5CD8FC;
@@ -319,14 +301,9 @@
 }
 
 @media(max-width:1560px) {
-  .row.project-wrapp {
-    margin-left: -16px;
-    margin-right: -16px;
-  }
-
-  .row.project-wrapp>div[class*=col] {
-    padding: 0 16px;
-    margin-bottom: 32px;
+  .project-card-row {
+    --bs-gutter-x: 30px;
+    --bs-gutter-y: 30px;
   }
 }
 
@@ -473,7 +450,7 @@
     margin: 0 15px;
   }
 
-  .row.project-wrapp>div[class*=col] {
+  .row.project-card-row>div[class*=col] {
     margin-bottom: 20px;
   }
 
@@ -522,3 +499,7 @@
     margin-bottom: 30px;
   }
 }
+
+/*------------------------*/
+/* - Account Information  */
+/*------------------------*/
