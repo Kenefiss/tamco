@@ -46,13 +46,13 @@
 
                 <div class="basket__prd--inner">
                   <div class="basket__prd">
-                    <div class="basket__prd--img">
+                    <a class="basket__prd--img" href="product-detail.php">
                       <img src="img/basket-img-1.png" alt="" loading="lazy">
-                    </div>
+                    </a>
                     <div class="basket__prd--info">
-                      <div class="basket__prd--name h3">
+                      <a class="basket__prd--name h3" href="product-detail.php">
                         HBM23040K-UN4-ACR-BK
-                      </div>
+                      </a>
                       <ul class="basket__prd--opt">
                         <li>HBM Series</li>
                         <li>SKU: HBM23040K-UN4-ACR-BK</li>
@@ -84,14 +84,14 @@
                     <div class="btn-close type-2 open-popup" data-rel="remove-prod"></div>
                   </div>
                   <div class="basket__prd">
-                    <div class="basket__prd--img">
+                    <a class="basket__prd--img" href="product-detail.php">
                       <img src="img/basket-img-2.png" alt="" loading="lazy">
-                    </div>
+                    </a>
                     <div class="basket__prd--info">
-                      <div class="basket__prd--name h3">
+                      <a class="basket__prd--name h3">
                         AR-N7S
-                      </div>
-                      <ul class="basket__prd--opt">
+                      </a>
+                      <ul class="basket__prd--opt" href="product-detail.php">
                         <li>Photocontrols Series</li>
                         <li>SKU AR-N7S</li>
                       </ul>
@@ -267,9 +267,9 @@
                 </div>
 
 
-                <button class="btn btn-2 btn-fourth">
+                <a class="btn btn-2 btn-fourth" href="products-basket-received.php">
                   <b>Request Quote</b>
-                </button>
+                </a>
               </form>
             </div>
           </div>

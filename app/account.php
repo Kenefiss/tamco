@@ -36,7 +36,7 @@
                     <div><span class="tab-caption">Account Information</span></div>
                   </div>
                 </div>
-                <div class="log-out"><img src="img/logout.svg" alt="">Log Out</div>
+                <a class="log-out" href="products.php"><img src="img/icons/logout.svg" alt="">Log Out</a>
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@
                 <div class="empty-block" style="display:none;">
                   <div class="h2 title dark-blue text-cap">No project saved yet</div>
                   <div class="h3 title grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida vel in.</div>
-                  <a href="#" class="btn btn-2 btn-fourth"><b>Search Products</b></a>
+                  <a class="btn btn-2 btn-fourth" href="products.php"><b>Search Products</b></a>
                 </div>
                 <!-- empty block end -->
 
@@ -92,14 +92,14 @@
                           <div class="input-caption">From</div>
                           <div class="input-field-wrapp">
                             <input class="input calendar" type="text" placeholder="Any Date" name="from">
-                            <img src="img/calendar-icon.svg" alt="">
+                            <img src="img/icons/calendar-icon.svg" alt="">
                           </div>
                         </div>
                         <div class="calendar-item">
                           <div class="input-caption">To</div>
                           <div class="input-field-wrapp">
                             <input class="input calendar" type="text" placeholder="Any Date" name="to">
-                            <img src="img/calendar-icon.svg" alt="">
+                            <img src="img/icons/calendar-icon.svg" alt="">
                           </div>
                         </div>
                       </div>
@@ -116,9 +116,9 @@
                   </div>
                   <div class="row project-wrapp">
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-item">
+                      <div class="project-card">
                         <div class="project-folder">
-                          <img src="img/project-folder.svg" alt="">
+                          <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">AP</div>
                         </div>
                         <div class="project-name">ABC Project</div>
@@ -130,9 +130,9 @@
                       </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-item">
+                      <div class="project-card">
                         <div class="project-folder">
-                          <img src="img/project-folder.svg" alt="">
+                          <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">X</div>
                         </div>
                         <div class="project-name">XYZ</div>
@@ -144,9 +144,9 @@
                       </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-item">
+                      <div class="project-card">
                         <div class="project-folder">
-                          <img src="img/project-folder.svg" alt="">
+                          <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">P3</div>
                         </div>
                         <div class="project-name">Project 3</div>
@@ -158,9 +158,9 @@
                       </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-item">
+                      <div class="project-card">
                         <div class="project-folder">
-                          <img src="img/project-folder.svg" alt="">
+                          <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">SP</div>
                         </div>
                         <div class="project-name">Sandras Project</div>
@@ -172,9 +172,9 @@
                       </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-item">
+                      <div class="project-card">
                         <div class="project-folder">
-                          <img src="img/project-folder.svg" alt="">
+                          <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">PH</div>
                         </div>
                         <div class="project-name">Project Name Goes Here </div>
@@ -186,9 +186,9 @@
                       </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-item">
+                      <div class="project-card">
                         <div class="project-folder">
-                          <img src="img/project-folder.svg" alt="">
+                          <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">AP</div>
                         </div>
                         <div class="project-name">Area Lighting Project</div>
@@ -200,9 +200,9 @@
                       </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-item">
+                      <div class="project-card">
                         <div class="project-folder">
-                          <img src="img/project-folder.svg" alt="">
+                          <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">P2</div>
                         </div>
                         <div class="project-name">Project 2</div>
@@ -214,9 +214,9 @@
                       </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-                      <div class="project-item">
+                      <div class="project-card">
                         <div class="project-folder">
-                          <img src="img/project-folder.svg" alt="">
+                          <img src="img/icons/project-folder.svg" alt="">
                           <div class="short-name">P1</div>
                         </div>
                         <div class="project-name">Project 1</div>

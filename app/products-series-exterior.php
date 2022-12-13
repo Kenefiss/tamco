@@ -20,7 +20,7 @@
           <img class="banner-entry-shadow" src="https://tamlite-dev.itwcorp-dev.info/wp-content/themes/tamlite/img/bg-overlay-2.png" alt="">
           <div class="banner-entry-content">
             <div class="btn-back-container container">
-              <div class="btn-icon btn-back"><i></i><b>Back</b></div>
+              <a class="btn-icon btn-back" href="products.php"><i></i><b>Back</b></a>
             </div>
             <div class="banner-entry-align align-bottom text-center">
               <div class="container">

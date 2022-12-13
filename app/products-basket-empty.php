@@ -55,13 +55,10 @@
         <div class="spacer-md"></div>
       </div>
 
-
     </main>
 
     <?php include 'inc/_footer.php';?>
   </div>
-
-
 
   <div class="popup-wrapper">
     <?php include 'inc/_popups.php';?>

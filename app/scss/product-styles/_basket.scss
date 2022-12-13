@@ -53,6 +53,7 @@
   height: 146px;
   flex-shrink: 0;
   margin-right: 30px;
+  transition: var(--transition);
 
   img {
     position: absolute;
@@ -65,8 +66,9 @@
 }
 
 .basket__prd--name {
+  display: inline-block;
   font-weight: 400;
-  color: var(--clr-dark-blue)
+  color: var(--clr-dark-blue);
 }
 
 .basket__prd--opt {
@@ -126,6 +128,16 @@
         margin-bottom: 0;
       }
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  a.basket__prd--name:hover {
+    text-decoration: underline;
+  }
+
+  a.basket__prd--img:hover {
+    opacity: .7;
   }
 }
 
@@ -325,7 +337,6 @@
     margin-top: 30px;
     padding: 20px 15px;
     font-size: 20px;
-
 
     >* {
       margin-bottom: 15px;

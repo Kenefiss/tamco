@@ -16,7 +16,7 @@
       <!-- Product Details -->
       <div class="section prd__detail--section">
         <div class="btn-back-container container">
-          <div class="btn-icon btn-back"><i></i><b>Back</b></div>
+          <a class="btn-icon btn-back" href="products-category.php"><i></i><b>Back</b></a>
         </div>
         <div class="spacer-sm"></div>
 

@@ -248,9 +248,9 @@
 
                   <div class="prd__title--wrap">
                     <div class="h4 title">Ceiling Mount Products</div>
-                    <div class="simple-link">
+                    <a class="simple-link" href="products-category-filtered-1.php">
                       <b>View All Products</b><i></i>
-                    </div>
+                    </a>
                   </div>
 
                   <!-- Products row -->
@@ -320,9 +320,9 @@
 
                   <div class="prd__title--wrap">
                     <div class="h4 title">High Bay Products</div>
-                    <div class="simple-link">
+                    <a class="simple-link" href="products-category-filtered-1.php">
                       <b>View All Products</b><i></i>
-                    </div>
+                    </a>
                   </div>
 
                   <!-- Products row -->
@@ -448,9 +448,9 @@
 
                   <div class="prd__title--wrap">
                     <div class="h4 title">Lay-ins Products</div>
-                    <div class="simple-link">
+                    <a class="simple-link" href="products-category-filtered-2.php">
                       <b>View All Products</b><i></i>
-                    </div>
+                    </a>
                   </div>
 
                   <!-- Products row -->
@@ -492,9 +492,9 @@
 
                   <div class="prd__title--wrap">
                     <div class="h4 title">Linear Led Direct-Indirect Products</div>
-                    <div class="simple-link">
+                    <a class="simple-link" href="products-category-filtered-1.php">
                       <b>View All Products</b><i></i>
-                    </div>
+                    </a>
                   </div>
 
                   <!-- Products row -->
@@ -526,9 +526,9 @@
 
                   <div class="prd__title--wrap">
                     <div class="h4 title">Recessed Downlights Products</div>
-                    <div class="simple-link">
+                    <a class="simple-link" href="products-category-filtered-1.php">
                       <b>View All Products</b><i></i>
-                    </div>
+                    </a>
                   </div>
 
                   <!-- Products row -->
@@ -598,9 +598,9 @@
 
                   <div class="prd__title--wrap">
                     <div class="h4 title">Strips Products</div>
-                    <div class="simple-link">
+                    <a class="simple-link" href="products-category-filtered-1.php">
                       <b>View All Products</b><i></i>
-                    </div>
+                    </a>
                   </div>
 
                   <!-- Products row -->
@@ -670,9 +670,9 @@
 
                   <div class="prd__title--wrap">
                     <div class="h4 title">Undercabinet Products</div>
-                    <div class="simple-link">
+                    <a class="simple-link" href="products-category-filtered-1.php">
                       <b>View All Products</b><i></i>
-                    </div>
+                    </a>
                   </div>
 
                   <!-- Products row -->
@@ -704,9 +704,9 @@
 
                   <div class="prd__title--wrap">
                     <div class="h4 title">Wall Mount Products</div>
-                    <div class="simple-link">
+                    <a class="simple-link" href="products-category-filtered-1.php">
                       <b>View All Products</b><i></i>
-                    </div>
+                    </a>
                   </div>
 
                   <!-- Products row -->
@@ -738,9 +738,9 @@
 
                   <div class="prd__title--wrap">
                     <div class="h4 title">Wraps Products</div>
-                    <div class="simple-link">
+                    <a class="simple-link" href="products-category-filtered-3.php">
                       <b>View All Products</b><i></i>
-                    </div>
+                    </a>
                   </div>
 
                   <!-- Products row -->

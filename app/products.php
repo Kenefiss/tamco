@@ -57,140 +57,140 @@
               <!-- Products row -->
               <div class="row prd__row">
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-1.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">ARPS Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-2.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">ARPT Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-3.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">BOL Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-4.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">TLC Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-5.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">TLG Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-6.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">Photocontrols Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-7.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">FLX Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-8.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">MPF Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-9.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">TLMSP Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-10.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">CMS Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-11.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">TRRM Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-9.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">TLMSP Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-12.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">ARWP Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-13.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">MWP Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-14.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">SCL Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-15.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">SLS Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-16.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">TLAS Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-17.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">TLDD Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-18.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">WPA Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-19.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">WPX Series</div>
                     <div class="prd__item--view"><b>View</b></div>
@@ -200,7 +200,7 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <div class="btn btn-2 btn-primary"><b>View All Exterior Products</b></div>
+                <a class="btn btn-2 btn-primary" href="products-category-filtered-3.php"><b>View All Exterior Products</b></a>
               </div>
             </div>
           </div>
@@ -219,35 +219,35 @@
               <!-- Products row -->
               <div class="row prd__row">
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-20.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">TLDK Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-21.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBNSF Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-22.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">CVP Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-23.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">TLVP Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-exterior.php">
                     <div class="prd__item--img"><img src="img/prd-img-24.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">VPS Series</div>
                     <div class="prd__item--view"><b>View</b></div>
@@ -257,7 +257,7 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <div class="btn btn-2 btn-primary"><b>View All Harsh Hazardous Products</b></div>
+                <a class="btn btn-2 btn-primary" href="products-category.php"><b>View All Harsh Hazardous Products</b></a>
               </div>
             </div>
           </div>
@@ -276,168 +276,168 @@
               <!-- Products row -->
               <div class="row prd__row">
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-25.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">Decorative Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-26.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">AD Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-27.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">JBR Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-28.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">RFJ Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-29.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">SMD Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-30.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">PET Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-31.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-32.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBX Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-33.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">BLP Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">TLG Series</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
@@ -447,7 +447,7 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <div class="btn btn-2 btn-primary"><b>View All Interior Products</b></div>
+                <a class="btn btn-2 btn-primary" href="products-category-filtered-1.php"><b>View All Interior Products</b></a>
               </div>
             </div>
           </div>
@@ -466,168 +466,168 @@
               <!-- Products row -->
               <div class="row prd__row">
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
@@ -637,7 +637,7 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <div class="btn btn-2 btn-primary"><b>View All Low Voltage Lighting Systems Products</b></div>
+                <a class="btn btn-2 btn-primary" href="products-category.php"><b>View All Low Voltage Lighting Systems Products</b></a>
               </div>
             </div>
           </div>
@@ -656,21 +656,21 @@
               <!-- Products row -->
               <div class="row prd__row">
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
                   </a>
                 </div>
                 <div class="col-xxl-auto col-md-3 col-sm-4 col-6">
-                  <a class="prd__item" href="product-detail.php">
+                  <a class="prd__item" href="products-series-interior.php">
                     <div class="prd__item--img"><img src="img/prd-img-34.png" alt="" loading="lazy"></div>
                     <div class="prd__item--name">HBM100</div>
                     <div class="prd__item--view"><b>View</b></div>
@@ -680,7 +680,7 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <div class="btn btn-2 btn-primary"><b>View All SpecialtyProducts</b></div>
+                <a class="btn btn-2 btn-primary" href="products-category.php"><b>View All SpecialtyProducts</b></a>
               </div>
             </div>
           </div>

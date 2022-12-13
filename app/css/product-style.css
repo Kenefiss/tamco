@@ -342,9 +342,9 @@ html.ctg-open-filter body {overflow: hidden;}
 .basket__prd--inner > *:last-child {margin-bottom: 0;}
 .basket__prd {position: relative;padding: 15px 80px 40px 15px;background: var(--clr-white);border: 1px solid var(--clr-grey-500);border-radius: 8px;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: start;-ms-flex-align: start;align-items: flex-start;}
 .basket__prd .btn-close {position: absolute;top: 15px;right: 15px;}
-.basket__prd--img {position: relative;width: 146px;height: 146px;-ms-flex-negative: 0;flex-shrink: 0;margin-right: 30px;}
+.basket__prd--img {position: relative;width: 146px;height: 146px;-ms-flex-negative: 0;flex-shrink: 0;margin-right: 30px;-webkit-transition: var(--transition);transition: var(--transition);}
 .basket__prd--img img {position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);max-width: 100%;height: 100%;}
-.basket__prd--name {font-weight: 400;color: var(--clr-dark-blue);}
+.basket__prd--name {display: inline-block;font-weight: 400;color: var(--clr-dark-blue);}
 .basket__prd--opt {margin-top: 10px;}
 .basket__prd--opt li {font-weight: 400;font-size: 16px;line-height: 1.28em;letter-spacing: 0.01em;color: var(--clr-grey-700);}
 .basket__prd--btn-wrap {margin-top: 25px;}
@@ -355,6 +355,10 @@ html.ctg-open-filter body {overflow: hidden;}
 .basket__form .basket__title {margin-bottom: 30px;}
 .basket__form .checkbox-entry-wrap .checkbox-entry {margin: 15px;}
 .basket__form .checkbox-entry-wrap .checkbox-entry:last-child {margin-bottom: 0;}
+@media (min-width: 1200px) {
+a.basket__prd--name:hover {text-decoration: underline;}
+a.basket__prd--img:hover {opacity: 0.7;}
+}
 @media (max-width: 1440px) {
 .basket-section > .container > .row {--bs-gutter-x: 40px;}
 }
@@ -527,19 +531,19 @@ html.ctg-open-filter body {overflow: hidden;}
 /*project-wrap*/
 .row.project-wrapp {margin-left: -12px;margin-right: -12px;}
 .row.project-wrapp > div[class*=col] {padding: 0 12px;margin-bottom: 30px;}
-.project-item {position: relative;height: 100%;border: 1px solid rgba(25, 55, 104, 0.2);border-radius: 8px;padding: 35px 25px 25px;-webkit-transition: var(--transition);transition: var(--transition);cursor: pointer;}
-.project-item .project-folder {position: relative;width: 125px;height: 100px;margin: 0 auto;text-align: center;margin-bottom: 45px;}
-.project-item .project-folder img {width: 100%;height: auto;max-width: 100%;max-height: 100%;}
-.project-item .project-folder .short-name {position: absolute;top: 36px;width: 100%;padding: 0 10px;font-size: 36px;line-height: 40px;text-transform: uppercase;color: var(--clr-dark-blue);}
-.project-item .project-name {font-weight: 700;font-size: 16px;line-height: 19px;letter-spacing: 0.005em;color: var(--clr-dark-blue);-webkit-transition: var(--transition);transition: var(--transition);}
+.project-card {position: relative;height: 100%;border: 1px solid rgba(25, 55, 104, 0.2);border-radius: 8px;padding: 35px 25px 25px;-webkit-transition: var(--transition);transition: var(--transition);cursor: pointer;}
+.project-card .project-folder {position: relative;width: 125px;height: 100px;margin: 0 auto;text-align: center;margin-bottom: 45px;}
+.project-card .project-folder img {width: 100%;height: auto;max-width: 100%;max-height: 100%;}
+.project-card .project-folder .short-name {position: absolute;top: 36px;width: 100%;padding: 0 10px;font-size: 36px;line-height: 40px;text-transform: uppercase;color: var(--clr-dark-blue);}
+.project-card .project-name {font-weight: 700;font-size: 16px;line-height: 19px;letter-spacing: 0.005em;color: var(--clr-dark-blue);-webkit-transition: var(--transition);transition: var(--transition);}
 .project-info > * {font-weight: 400;font-size: 16px;line-height: 20px;letter-spacing: 0.005em;color: var(--clr-dark-blue);margin-top: 8px;}
 .project-info > * span {margin-left: 5px;}
 .project-block .ctg__menu--wrap {height: auto;overflow: initial;}
 /*media*/
 @media (min-width: 1200px) {
 .tab-nav .tab-toggle div:hover .tab-caption {border-bottom-color: #5CD8FC;}
-.project-item:hover {border-color: var(--clr-dark-blue);}
-.project-item:hover .project-name,
+.project-card:hover {border-color: var(--clr-dark-blue);}
+.project-card:hover .project-name,
 .banner-entry .log-out:hover {text-decoration: underline;}
 }
 @media (max-width: 1560px) {
@@ -597,8 +601,8 @@ html.ctg-open-filter body {overflow: hidden;}
 @media (max-width: 400px) {
 .tab-nav .tab-toggle div:not(:last-child) {margin-right: 25px;}
 .banner-entry .log-out {right: 15px;top: 10px;}
-.project-item {padding-top: 30px;}
-.project-item .project-folder {margin-bottom: 30px;}
+.project-card {padding-top: 30px;}
+.project-card .project-folder {margin-bottom: 30px;}
 }
 /*--------------------*/
 /* - Project Detail   */
