@@ -836,7 +836,10 @@
   </div>
 
 
-  <div class="popup-wrapper" id="popups"></div>
+
+  <div class="popup-wrapper">
+    <?php include 'inc/_popups.php';?>
+  </div>
 
   <?php include 'inc/_bottom.php';?>
 </body>

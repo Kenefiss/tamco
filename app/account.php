@@ -36,7 +36,7 @@
                     <div><span class="tab-caption">Account Information</span></div>
                   </div>
                 </div>
-                <div class="log-out"><img src="img/logout.svg" alt="">Log Out</div> 
+                <div class="log-out"><img src="img/logout.svg" alt="">Log Out</div>
               </div>
             </div>
           </div>
@@ -322,7 +322,10 @@
   </div>
 
 
-  <div class="popup-wrapper" id="popups"></div>
+
+  <div class="popup-wrapper">
+    <?php include 'inc/_popups.php';?>
+  </div>
 
   <?php include 'inc/_bottom.php';?>
   <?php include 'inc/_account.php';?>

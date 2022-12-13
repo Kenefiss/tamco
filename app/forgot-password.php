@@ -58,7 +58,7 @@
     </div>
 
 
-    <div class="popup-wrapper" id="popups">
+    <div class="popup-wrapper" >
         <?php include 'inc/_popups.php';?>
     </div>
 
