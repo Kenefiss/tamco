@@ -40,7 +40,7 @@
     </div>
 
 
-    <div class="popup-wrapper" id="popups"></div>
+    <div class="popup-wrapper" ></div>
 
     <?php include 'inc/_bottom.php';?>
 </body>

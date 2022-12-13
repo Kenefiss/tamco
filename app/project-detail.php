@@ -2,28 +2,26 @@
 <html lang="en">
 
 <head>
-    <?php include 'inc/_top.php';?>
-    <title>Tamlite || Project Detail</title>
+  <?php include 'inc/_top.php';?>
+  <title>Tamlite || Project Detail</title>
 </head>
 
 <body style="background-color: var(--clr-grey-100);">
-    <div id="loader-wrapper"></div>
-    <div id="content-block">
-        <?php include 'inc/_header.php';?>
+  <div id="loader-wrapper"></div>
+  <div id="content-block">
+    <?php include 'inc/_header.php';?>
 
-        <main>
-            <!-- Project Detail Banner -->
-            <div class="section project-detail-banner">
-                <div class="banner-entry">
-                    <div class="banner-entry-bg" style="background-color: var(--clr-white);"></div>
-                    <img class="banner-entry-shadow"
-                        src="https://tamlite-dev.itwcorp-dev.info/wp-content/themes/tamlite/img/bg-overlay-2.png"
-                        alt="">
+    <main>
+      <!-- Project Detail Banner -->
+      <div class="section project-detail-banner">
+        <div class="banner-entry">
+          <div class="banner-entry-bg" style="background-color: var(--clr-white);"></div>
+          <img class="banner-entry-shadow" src="https://tamlite-dev.itwcorp-dev.info/wp-content/themes/tamlite/img/bg-overlay-2.png" alt="">
 
-                    <div class="banner-entry-content">
-                        <div class="btn-back-container container">
-                            <div class="btn-icon btn-back"><i></i><b>Back</b></div>
-                        </div>
+          <div class="banner-entry-content">
+            <div class="btn-back-container container">
+              <div class="btn-icon btn-back"><i></i><b>Back</b></div>
+            </div>
 
                         <div class="banner-entry-align align-bottom">
                             <div class="container">
@@ -48,45 +46,42 @@
                                                     </svg>
                                                 </div>
 
-                                                <div class="btn-icon">
-                                                    <svg width="24" height="24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <g clip-path="url(#a)">
-                                                            <path
-                                                                d="M6 21h12V7H6v14Zm2.46-9.12 1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12ZM15.5 4l-1-1h-5l-1 1H5v2h14V4h-3.5Z"
-                                                                fill="#193768"></path>
-                                                        </g>
-                                                        <defs>
-                                                            <clipPath id="a">
-                                                                <path fill="#193768" d="M0 0h24v24H0z"></path>
-                                                            </clipPath>
-                                                        </defs>
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="project-info-wrapper">
-                                            <div class="project-info">
-                                                <div class="h6 title fw-700 grey-700">Created</div>
-                                                <div class="h3 fw-400 dark-blue">Sep 20, 2022</div>
-                                            </div>
-                                            <div class="project-info">
-                                                <div class="h6 title fw-700 grey-700">Location</div>
-                                                <div class="h3 fw-400 dark-blue">Toronto</div>
-                                            </div>
-                                            <div class="project-info">
-                                                <div class="h6 title fw-700 grey-700">Client</div>
-                                                <div class="h3 fw-400 dark-blue">David Scherer</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="btn-icon">
+                          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#a)">
+                              <path d="M6 21h12V7H6v14Zm2.46-9.12 1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12ZM15.5 4l-1-1h-5l-1 1H5v2h14V4h-3.5Z" fill="#193768"></path>
+                            </g>
+                            <defs>
+                              <clipPath id="a">
+                                <path fill="#193768" d="M0 0h24v24H0z"></path>
+                              </clipPath>
+                            </defs>
+                          </svg>
                         </div>
+                      </div>
                     </div>
+
+                    <div class="project-info-wrapper">
+                      <div class="project-info">
+                        <div class="h6 title fw-700 grey-700">Created</div>
+                        <div class="h3 fw-400 dark-blue">Sep 20, 2022</div>
+                      </div>
+                      <div class="project-info">
+                        <div class="h6 title fw-700 grey-700">Location</div>
+                        <div class="h3 fw-400 dark-blue">Toronto</div>
+                      </div>
+                      <div class="project-info">
+                        <div class="h6 title fw-700 grey-700">Client</div>
+                        <div class="h3 fw-400 dark-blue">David Scherer</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
 
             <!-- Project Detail Info -->
             <div class="section project-detail">
@@ -358,14 +353,16 @@
             </div>
         </main>
 
-        <?php include 'inc/_footer.php';?>
-    </div>
+    <?php include 'inc/_footer.php';?>
+  </div>
 
 
-    <div class="popup-wrapper" id="popups">
-    </div>
 
-    <?php include 'inc/_bottom.php';?>
+  <div class="popup-wrapper">
+    <?php include 'inc/_popups.php';?>
+  </div>
+
+  <?php include 'inc/_bottom.php';?>
 
 </body>
 

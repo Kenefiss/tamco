@@ -1,0 +1,43 @@
+.daterangepicker.opensright:after, .daterangepicker.opensright:before { display: none; }
+
+.daterangepicker { z-index: 1001; margin-top: 0; border-radius: 0; border: 0; -webkit-box-shadow: 0 15px 29px 0 rgba(0, 0, 0, 0.07); box-shadow: 0 15px 29px 0 rgba(0, 0, 0, 0.07); width: auto !important; -webkit-transform: translateY(15px); -ms-transform: translateY(15px); transform: translateY(15px); opacity: 0; visibility: hidden; -webkit-transition: var(--transition-1); -o-transition: var(--transition-1); transition: var(--transition-1); }
+
+.daterangepicker.active { opacity: 1; visibility: visible; -webkit-transform: translateY(5px); -ms-transform: translateY(5px); transform: translateY(5px); }
+
+.daterangepicker.show-calendar .ranges { margin-top: 0; }
+
+.daterangepicker .drp-calendar { max-width: 100% !important; }
+
+.daterangepicker .drp-calendar.left { padding: 0; }
+
+.daterangepicker .drp-calendar.left .calendar-table { padding: 15px; border-radius: 0; }
+
+.daterangepicker .calendar-table thead tr:first-child th { border-radius: 0; border: 0; height: 30px; font-size: 16px; color: var(--clr-dark-blue); font-weight: 600; text-transform: uppercase; }
+
+.daterangepicker .calendar-table .next span, .daterangepicker .calendar-table .prev span { padding: 4px; border-color: var(--clr-grey-700); }
+
+.daterangepicker .calendar-table th { cursor: default; }
+
+.daterangepicker .calendar-table th.next, .daterangepicker .calendar-table th.prev { cursor: pointer; }
+
+.daterangepicker .calendar-table th.next span, .daterangepicker .calendar-table th.prev span { -webkit-transition: var(--transition-1); -o-transition: var(--transition-1); transition: var(--transition-1); }
+
+.daterangepicker .calendar-table th.next:hover, .daterangepicker .calendar-table th.prev:hover { background-color: var(--clr-white); }
+
+.daterangepicker .calendar-table th.next:hover span, .daterangepicker .calendar-table th.prev:hover span { border-color: var(--clr-black); }
+
+.daterangepicker .calendar-table td, .daterangepicker .calendar-table th { font-size: 14px; font-weight: 500; height: 30px; border-radius: 0 !important; color: var(--clr-black); -webkit-transition: var(--transition-1); -o-transition: var(--transition-1); transition: var(--transition-1); }
+
+.daterangepicker .calendar-table th { color: var(--clr-dark-blue); }
+
+.calendar-table tbody tr:not(:last-child) td.ends { opacity: 0.5; }
+
+.calendar-table tbody tr:last-child td { display: none; }
+
+.daterangepicker .calendar-table thead tr:nth-child(2) th { height: 40px; }
+
+.daterangepicker option.disabled, .daterangepicker td.disabled { color: var(--clr-grey-700); text-decoration: none; }
+
+.daterangepicker td.available:hover, .daterangepicker th.available:hover { background-color: var(--clr-grey-700); color: var(--clr-white); }
+
+.daterangepicker td.active, .daterangepicker td.active:hover { background-color: var(--clr-dark-blue); color: var(--clr-white); }

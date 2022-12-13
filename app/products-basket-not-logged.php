@@ -130,7 +130,7 @@
               <div class="prj__save-wrap">
                 <img src="img/icons/folder-add.svg" alt="" loading="lazy">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui vitae.</p>
-                <div class="btn btn-2 btn-fourth open-popup" data-rel="save-to-project">
+                <div class="btn btn-2 btn-fourth open-popup" data-rel="login-to-save">
                   <b>Save to a Project</b>
                 </div>
               </div>
