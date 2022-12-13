@@ -10,7 +10,7 @@
 // let _functions = {},
 //   winW, winH, winScr, isTouchScreen, isAndroid, isIPhone, is_Mac, is_IE, is_Chrome;
 
-jQuery(function($) {
+jQuery(function ($) {
   "use strict";
 
   //*===============
@@ -21,23 +21,23 @@ jQuery(function($) {
   })
 
 
-  $(document).on('click', '.ctg__filter--title', function() {
+  $(document).on('click', '.ctg__filter--title', function () {
     $(this).closest('.ctg__filter').toggleClass('active')
     $(this).closest('.ctg__filter').find('.ctg__filter--list').slideToggle();
   })
 
 
-  $(document).on('click', '.load-more.card', function() {
+  $(document).on('click', '.load-more.card', function () {
     let th = $(this)
     th.addClass('loading');
 
     // remove this when you use ajax
-    setTimeout(function() {
+    setTimeout(function () {
       th.removeClass('loading')
     }, 4500);
   })
 
-  $(document).on('click', '.ctg__mobile--btn', function() {
+  $(document).on('click', '.ctg__mobile--btn', function () {
     $('html').addClass('ctg-open-filter')
   })
 
@@ -47,11 +47,11 @@ jQuery(function($) {
 
   // btn submit add error message
   // remove this after programming
-  $(document).on('click', '.btn-submit', function(e) {
+  $(document).on('click', '.btn-submit', function (e) {
     let input = $(this).closest('.form-wrapp').find('.input-field-wrapp .input');
     let form = $(this).closest('.form-wrapp');
 
-    input.each(function() {
+    input.each(function () {
       if (input.val().length == 0) {
         form.find('.error-message').removeClass('d-none');
         form.find('.btn-submit').addClass('btn-disabled');
@@ -65,21 +65,21 @@ jQuery(function($) {
   $(document).on('blur', '.input-field-wrapp .input[required]', function () {
     let form = $(this).closest('.form-wrapp');
 
-		if ($(this).val().trim()) {
-			form.find('.error-message').addClass('d-none');
+    if ($(this).val().trim()) {
+      form.find('.error-message').addClass('d-none');
       form.find('.btn-submit').removeClass('btn-disabled');
-		} else {
-			form.find('.error-message').removeClass('d-none');
+    } else {
+      form.find('.error-message').removeClass('d-none');
       form.find('.btn-submit').addClass('btn-disabled');
-		}
-	});
+    }
+  });
 
 
-  $(document).on('click', '.ctg__menu--overlay', function() {
+  $(document).on('click', '.ctg__menu--overlay', function () {
     $('html').removeClass('ctg-open-filter')
   })
 
-  _functions.fixedFilter = function() {
+  _functions.fixedFilter = function () {
     let winScr = $(window).scrollTop();
 
 
@@ -94,13 +94,13 @@ jQuery(function($) {
     }
   };
 
-  $(window).on('scroll', function() {
+  $(window).on('scroll', function () {
     _functions.fixedFilter();
   });
 
 
   // Accordion
-  $(document).on('click', '.accordion .accordion-title', function() {
+  $(document).on('click', '.accordion .accordion-title', function () {
     if ($(this).hasClass('active')) {
       $(this).removeClass('active').next().slideUp();
     } else {
@@ -111,12 +111,12 @@ jQuery(function($) {
 
 
   // Button "+" & "-"
-  $(document).on('click', '.in-btn-dec', function() {
+  $(document).on('click', '.in-btn-dec', function () {
     let number = $(this).closest('.in-inner').find('input[name="number"]');
     number.val(+number.val() + 1);
   })
 
-  $(document).on('click', '.in-btn-inc', function() {
+  $(document).on('click', '.in-btn-inc', function () {
     let number = $(this).closest('.in-inner').find('input[name="number"]');
     if (+number.val() > 0) {
       number.val(+number.val() - 1);
@@ -124,7 +124,7 @@ jQuery(function($) {
   })
 
 
-  $(document).on('click', '.add-to-basket', function() {
+  $(document).on('click', '.add-to-basket', function () {
     let prdSec = $(this).closest('.prd__detail--section');
     let prdName = prdSec.find('.prd__detail--name').text();
 
@@ -147,6 +147,50 @@ jQuery(function($) {
     $(this).closest('.tab-nav').removeClass('active').find('.tab-title').text($(this).text());
   });
 
+  //BUTTONS FOR PROJECT DETAIL
+  // btn edit
+  $(document).on('click', '.btn-edit', function () {
+    var item = $(this).closest('.project-item');
 
+    item.find("input").removeAttr("readonly");
+    item.find("input").addClass("input, in-input");
+    item.find("button").removeClass("hide");
+    $(this).parent('.btn-icon-wrapper').addClass("hide").siblings().removeClass('hide');
+
+    if (winW < 1200){
+      item.addClass("focus");
+    }
+  });
+
+  // btn save
+  $(document).on('click', '.btn-save', function () {
+    var item = $(this).closest('.project-item');
+
+    item.find("input").prop("readonly", true);
+    item.find("input").removeClass("input, in-input");
+    item.find("button").addClass("hide");
+    $(this).parent('.btn-icon-wrapper').addClass("hide").siblings().removeClass('hide');
+
+    if (winW < 1200){
+      item.removeClass("focus");
+    }
+  });
+
+  //btn remove
+  $(document).on('click', '.btn-remove', function () {
+    var item = $(this).closest('.project-content').find('.project-item');
+
+    if (item.length == 1) {
+      $(this).closest('.project-wrapper').find('.project-top').remove();
+      $(this).closest('.project-wrapper').find('.project-empty').removeClass('d-none');
+      $(this).closest('.project-item').slideUp(0, function () {
+        $(this).remove();
+      });
+    } else {
+      $(this).closest('.project-item').slideUp(0, function () {
+        $(this).remove();
+      });
+    }
+  });
 
 });
