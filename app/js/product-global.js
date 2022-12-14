@@ -33,7 +33,7 @@ jQuery(function($) {
     $('html').addClass('ctg-open-filter')
   })
 
-  $(document).on('click', '.ctg__mobile--overlay, .ctg__menu--wrap .btn-close', function() {
+  $(document).on('click', '.ctg__menu--overlay, .ctg__menu--wrap .btn-close', function() {
     $('html').removeClass('ctg-open-filter')
   })
 
