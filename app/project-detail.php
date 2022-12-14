@@ -45,15 +45,15 @@
                     </div>
 
                     <div class="project-info-wrapper">
-                      <div class="project-info">
+                      <div class="project-info-data">
                         <div class="h6 title fw-700 grey-700">Created</div>
                         <div class="h3 fw-400 dark-blue">Sep 20, 2022</div>
                       </div>
-                      <div class="project-info">
+                      <div class="project-info-data">
                         <div class="h6 title fw-700 grey-700">Location</div>
                         <div class="h3 fw-400 dark-blue">Toronto</div>
                       </div>
-                      <div class="project-info">
+                      <div class="project-info-data">
                         <div class="h6 title fw-700 grey-700">Client</div>
                         <div class="h3 fw-400 dark-blue">David Scherer</div>
                       </div>

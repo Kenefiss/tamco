@@ -153,7 +153,7 @@
           <div class="row justify-content-center">
             <div class="col-xxl-7 col-xl-9 col-md-11">
               <div class="accordion-inner">
-                <div class="h2 title text-upper">Product Specifications</div>
+                <div class="h2 title text-upper dark-blue">Product Specifications</div>
 
                 <div class="accordion-wrapp">
                   <div class="accordion">
@@ -302,7 +302,7 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-xxl-8 col-xl-9">
-              <div class="h2 title text-upper text-center">Related Products</div>
+              <div class="h2 title text-upper text-center dark-blue">Related Products</div>
 
               <div class="swiper-entry related-slider pgn-2">
                 <div class="swiper-container" data-options='{"centerInsufficientSlides": false, "slidesPerView": "2", "spaceBetween": 12, "arrowsOut": true, "pagination": {"el": ".pgn-2 .swiper-pagination", "dynamicBullets": true, "dynamicMainBullets": 2 },"breakpoints": {"576": {"slidesPerView": 3, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }},"768": {"slidesPerView": 4, "spaceBetween": 12, "pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }}, "992": {"slidesPerView": 4, "spaceBetween": 12,"pagination": {"dynamicBullets": true, "dynamicMainBullets": 2 }}, "1600": {"slidesPerView": "5", "spaceBetween": 12,"pagination": { "dynamicBullets": true, "dynamicMainBullets": 2 }} }}'>

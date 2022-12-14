@@ -195,7 +195,7 @@
           <!-- Products Category Banner small -->
           <div class="section">
             <div class="banner-entry small prd__banner">
-              <div class="banner-entry-bg" style="background-image: url('./img/prd-banner-img-4.jpg');"></div>
+              <div class="banner-entry-bg" style="background-image: url('./img/prd-banner-img-6.jpg');"></div>
               <img class="banner-entry-shadow" src="https://tamlite-dev.itwcorp-dev.info/wp-content/themes/tamlite/img/bg-overlay-2.png" alt="">
               <div class="banner-entry-content">
                 <div class="banner-entry-align align-bottom text-center">

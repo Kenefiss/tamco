@@ -5,6 +5,8 @@
 //*==========================
 //* 03 ACCOUNT              =
 //*==========================
+//* 04 PROJECT DETAIL       =
+//*==========================
 
 
 jQuery(function($) {
@@ -126,53 +128,6 @@ jQuery(function($) {
     $(this).closest('.tab-nav').removeClass('active').find('.tab-title').text($(this).text());
   });
 
-  //BUTTONS FOR PROJECT DETAIL
-  // btn edit
-  $(document).on('click', '.btn-edit', function() {
-    var item = $(this).closest('.project-item');
-
-    item.find("input").removeAttr("readonly");
-    item.find("input").addClass("input, in-input");
-    item.find("button").removeClass("hide");
-    $(this).parent('.btn-icon-wrapper').addClass("hide").siblings().removeClass('hide');
-
-    if (winW < 1200) {
-      item.addClass("focus");
-    }
-  });
-
-  // btn save
-  $(document).on('click', '.btn-save', function() {
-    var item = $(this).closest('.project-item');
-
-    item.find("input").prop("readonly", true);
-    item.find("input").removeClass("input, in-input");
-    item.find("button").addClass("hide");
-    $(this).parent('.btn-icon-wrapper').addClass("hide").siblings().removeClass('hide');
-
-    if (winW < 1200) {
-      item.removeClass("focus");
-    }
-  });
-
-  //btn remove
-  $(document).on('click', '.btn-remove', function() {
-    var item = $(this).closest('.project-content').find('.project-item');
-
-    if (item.length == 1) {
-      $(this).closest('.project-wrapper').find('.project-top').remove();
-      $(this).closest('.project-wrapper').find('.project-empty').removeClass('d-none');
-      $(this).closest('.project-item').slideUp(0, function() {
-        $(this).remove();
-      });
-    } else {
-      $(this).closest('.project-item').slideUp(0, function() {
-        $(this).remove();
-      });
-    }
-  });
-
-
 
   // btn submit add error message
   // remove this after programming
@@ -203,6 +158,59 @@ jQuery(function($) {
     } else {
       form.find('.error-message').removeClass('d-none');
       form.find('.btn-submit').addClass('btn-disabled');
+    }
+  });
+
+
+
+
+  //*=====================
+  //* 04 PROJECT DETAIL  =
+  //*=====================
+  // btn edit
+  $(document).on('click', '.btn-edit', function() {
+    var item = $(this).closest('.project-item');
+
+    item.find("input").removeAttr("readonly");
+    item.find("input").addClass("input, in-input");
+    item.find("button").removeClass("hide");
+    $(this).parent('.btn-icon-wrapper').addClass("hide").siblings().removeClass('hide');
+
+    if (winW < 1200) {
+      item.addClass("focus");
+    }
+  });
+
+
+  // btn save
+  $(document).on('click', '.btn-save', function() {
+    var item = $(this).closest('.project-item');
+
+    item.find("input").prop("readonly", true);
+    item.find("input").removeClass("input, in-input");
+    item.find("button").addClass("hide");
+    $(this).parent('.btn-icon-wrapper').addClass("hide").siblings().removeClass('hide');
+
+    if (winW < 1200) {
+      item.removeClass("focus");
+    }
+  });
+
+
+  //btn remove
+  $(document).on('click', '.btn-remove', function() {
+    var item = $(this).closest('.project-content').find('.project-item');
+
+    if (item.length == 1) {
+      $(this).closest('.project-wrapper').find('.project-top').remove();
+      $(this).closest('.project-wrapper').find('.project-empty').removeClass('d-none');
+      $(this).closest('.project-item').slideUp(0, function() {
+        $(this).remove();
+      });
+    } else {
+      $(this).closest('.project-item').slideUp(0, function() {
+        $(this).remove();
+      });
     }
   });
 

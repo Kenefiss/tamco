@@ -339,6 +339,7 @@
 
 .tooltip-info {
   position: absolute;
+  z-index: 10;
   bottom: -5px;
   left: 26px;
   transform: translate(0%, 100%);
@@ -444,6 +445,12 @@
   }
 }
 
+@media (max-width: 991px) {
+  .tooltip-info {
+    transform: translate(-50%, 100%);
+  }
+}
+
 @media (max-width: 767px) {
   .prd__detail--section {
     padding-inline: 15px;
@@ -464,6 +471,12 @@
     b {
       display: none;
     }
+  }
+
+  .tooltip-info {
+    left: auto;
+    right: 0;
+    transform: translate(0%, 100%);
   }
 }
 
