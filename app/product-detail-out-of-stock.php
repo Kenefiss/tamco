@@ -23,7 +23,7 @@
         <div class="container">
           <!-- Product informer -->
           <div class="row justify-content-center">
-            <div class="col-xxl-9 p-xxl-0 col-xl-10 col-md-11">
+            <div class="col-xl-9 p-xxl-0 col-md-11">
               <div class="prd__informer">
                 <div class="prd__informer--inner">
                   <div class="prd__informer--name">
@@ -140,7 +140,7 @@
                       <div class="tooltip">
                         <i>!</i>
                         <b>Product out of stock</b>
-                        <div class="tooltip-info">
+                        <div class="tooltip-info d-none">
                           Product out of stock
                         </div>
                       </div>

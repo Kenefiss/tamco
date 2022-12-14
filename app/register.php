@@ -50,7 +50,7 @@
                   <div class="row">
                     <div class="col-md-6">
                       <div class="input-field-wrapp">
-                        <input class="input" type="text" name="phone" required>
+                        <input class="input" type="tel" name="phone" required>
                         <div class="input-placeholder">Phone</div>
                       </div>
                     </div>
@@ -64,14 +64,16 @@
                   <div class="row">
                     <div class="col-md-6">
                       <div class="input-field-wrapp">
-                        <input class="input" type="text" name="new-password" required>
+                        <input class="input" type="password" name="new-password" required>
                         <div class="input-placeholder">Create Password</div>
+                        <i class="password-control"></i>
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="input-field-wrapp">
-                        <input class="input" type="text" name="confirm-password" required>
+                        <input class="input" type="password" name="confirm-password" required>
                         <div class="input-placeholder">Confirm Password</div>
+                        <i class="password-control"></i>
                       </div>
                     </div>
                   </div>

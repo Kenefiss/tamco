@@ -23,7 +23,7 @@
         <div class="container">
           <!-- Product informer -->
           <div class="row justify-content-center">
-            <div class="col-xxl-9 p-xxl-0 col-xl-10 col-md-11">
+            <div class="col-xl-9 p-xxl-0 col-md-11">
               <div class="prd__informer">
                 <div class="prd__informer--inner">
                   <div class="prd__informer--name">
@@ -46,7 +46,7 @@
                   <div class="swiper-thumbs prd__detail--slider">
                     <!-- top slider -->
                     <div class="swiper-entry swiper-thumbs-top">
-                      <div class="swiper-container" data-options='{"watchSlidesVisibility": true, "watchSlidesProgress": true, "spaceBetween": 30, "breakpoints":{"768":{"spaceBetween": 0}} }'>
+                      <div class="swiper-container" data-options='{"watchSlidesVisibility": true, "watchSlidesProgress": true, "spaceBetween": 70, "breakpoints":{"768":{"spaceBetween": 0}} }'>
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
                             <div class="prd__detail--img">
@@ -505,7 +505,7 @@
                   <div class="accordion">
                     <div class="accordion-title">Download <i class="plus"></i></div>
                     <div class="accordion-content">
-                      <div class="text">
+                      <div class="text with-btn">
                         <table>
                           <tbody>
                             <tr>
@@ -528,7 +528,7 @@
                   <div class="accordion">
                     <div class="accordion-title">Videos <i class="plus"></i></div>
                     <div class="accordion-content">
-                      <div class="text">
+                      <div class="text with-btn">
                         <table>
                           <tbody>
                             <tr>

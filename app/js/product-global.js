@@ -129,6 +129,45 @@ jQuery(function($) {
   });
 
 
+  // Input mask 
+  if ($('.input[type="tel"]').length) {
+    $('.input[type="tel"]').inputmask({
+      "mask": "+1-999-999-9999",
+      showMaskOnHover: false,
+      definitions: {
+        'x': {
+          validator: "[1-9]"
+        },
+        '9': {
+          validator: "[0-9]"
+        }
+      }
+    });
+  }
+
+
+  // Validate email
+  _functions.validateEmail = function(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+  }
+
+
+  $(document).on('keyup', 'input[name="email"]', function() {
+    const email = $(this);
+
+    if (!_functions.validateEmail(email.val())) {
+      email.closest('.input-field-wrapp').addClass('invalid-email');
+    } else {
+      email.closest('.input-field-wrapp').removeClass('invalid-email');
+    }
+
+    if (email.val() == '') {
+      email.closest('.input-field-wrapp').removeClass('invalid-email');
+    }
+  });
+
+
   // btn submit add error message
   // remove this after programming
   $(document).on('click', '.btn-submit', function(e) {

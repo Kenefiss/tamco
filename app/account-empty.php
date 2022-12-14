@@ -66,78 +66,78 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-12 col-lg-10 col-xl-6 col-xxl-4">
-                <div class="account-block">
-                  <div class="h2 title dark-blue">Hello Robert C.</div>
-                  <form class="account-form">
-                    <div class="row">
-                      <div class="col-sm-6">
-                        <div class="input-field-wrapp">
-                          <input class="input" type="text" name="phone" required="">
-                          <div class="input-placeholder">Phone</div>
-                          <div class="input-error">The input field must contain a Phone Number</div>
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="input-field-wrapp">
-                          <input class="input" type="text" name="company">
-                          <div class="input-placeholder">Company Name <span>(Optional)</span></div>
-                        </div>
+                <form class="account-form form-block">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="input-field-wrapp">
+                        <input class="input" type="tel" name="phone" required="">
+                        <div class="input-placeholder">Phone</div>
+                        <div class="input-error">The input field must contain a Phone Number</div>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-sm-6">
-                        <div class="input-field-wrapp">
-                          <select name="country" class="SelectBox">
-                            <option>Country</option>
-                            <option value="1">Canada 1</option>
-                            <option value="2">Canada 2</option>
-                            <option value="3">Canada 3</option>
-                            <option value="4">Canada 4</option>
-                            <option value="5">Canada 5</option>
-                            <option value="6">Canada 6</option>
-                          </select>
-                          <div class="input-placeholder in-select">Country</div>
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="input-field-wrapp">
-                          <select name="province" class="SelectBox">
-                            <option>Province</option>
-                            <option value="1">Province 1</option>
-                            <option value="2">Province 2</option>
-                            <option value="2">Province 3</option>
-                            <option value="2">Province 4</option>
-                            <option value="2">Province 5</option>
-                          </select>
-                          <div class="input-placeholder in-select">Province</div>
-                        </div>
+                    <div class="col-sm-6">
+                      <div class="input-field-wrapp">
+                        <input class="input" type="text" name="company">
+                        <div class="input-placeholder">Company Name <span>(Optional)</span></div>
                       </div>
                     </div>
-                    <div class="input-field-wrapp">
-                      <input class="input" type="text" name="city">
-                      <div class="input-placeholder">City</div>
-                    </div>
-                    <div class="input-field-wrapp">
-                      <input class="input" type="text" name="address1">
-                      <div class="input-placeholder">Street Address</div>
-                    </div>
-                    <div class="input-field-wrapp">
-                      <input class="input" type="text" name="address2">
-                      <div class="input-placeholder">Street Address <span>(Optional)</span></div>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm-6">
-                        <div class="input-field-wrapp">
-                          <input class="input" type="text" name="postal">
-                          <div class="input-placeholder">Postal / Zip Code</div>
-                        </div>
+                    <div class="col-sm-6">
+                      <div class="input-field-wrapp">
+                        <select name="country" class="SelectBox">
+                          <option>Country</option>
+                          <option value="1">Canada 1</option>
+                          <option value="2">Canada 2</option>
+                          <option value="3">Canada 3</option>
+                          <option value="4">Canada 4</option>
+                          <option value="5">Canada 5</option>
+                          <option value="6">Canada 6</option>
+                        </select>
+                        <div class="input-placeholder in-select">Country</div>
                       </div>
                     </div>
-                    <div class="text-left">
-                      <div class="btn btn-2 btn-fourth"><b>Save</b><input type="submit" value="Send" class="has-spinner" /></div>
+                    <div class="col-sm-6">
+                      <div class="input-field-wrapp">
+                        <select name="province" class="SelectBox">
+                          <option>Province</option>
+                          <option value="1">Province 1</option>
+                          <option value="2">Province 2</option>
+                          <option value="2">Province 3</option>
+                          <option value="2">Province 4</option>
+                          <option value="2">Province 5</option>
+                        </select>
+                        <div class="input-placeholder in-select">Province</div>
+                      </div>
                     </div>
-                  </form>
-                </div>
+                    <div class="col-12">
+                      <div class="input-field-wrapp">
+                        <input class="input" type="text" name="city">
+                        <div class="input-placeholder">City</div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="input-field-wrapp">
+                        <input class="input" type="text" name="address1">
+                        <div class="input-placeholder">Street Address</div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="input-field-wrapp">
+                        <input class="input" type="text" name="address2">
+                        <div class="input-placeholder">Street Address <span>(Optional)</span></div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="input-field-wrapp">
+                        <input class="input" type="text" name="postal">
+                        <div class="input-placeholder">Postal / Zip Code</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="btn btn-2 btn-fourth">
+                    <b>Save</b>
+                    <input type="submit" value="Send" class="has-spinner" />
+                  </div>
+                </form>
               </div>
             </div>
           </div>

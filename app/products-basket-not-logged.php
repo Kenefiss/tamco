@@ -73,7 +73,7 @@
                             </div>
                           </div>
                           <div class="in-wrap">
-                            <div class="in-placeholder">Fixture Type (Optional)</div>
+                            <div class="in-placeholder">Fixture Type</div>
                             <div class="in-inner">
                               <input class="in-input" type="text" value="Aliqueteget">
                             </div>
@@ -106,7 +106,7 @@
                             </div>
                           </div>
                           <div class="in-wrap">
-                            <div class="in-placeholder">Fixture Type (Optional)</div>
+                            <div class="in-placeholder">Fixture Type</div>
                             <div class="in-inner">
                               <input class="in-input" type="text" value="Aliqueteget">
                             </div>
@@ -177,7 +177,7 @@
                     </div>
                     <div class="col-sm-6">
                       <div class="input-field-wrapp">
-                        <input class="input" type="text" name="phone" required="">
+                        <input class="input" type="tel" name="phone" required="">
                         <div class="input-placeholder">Phone</div>
                         <div class="input-error">
                           The input field must contain a Phone Number
@@ -201,7 +201,7 @@
                         <select name="country" class="SelectBox">
                           <option value="Country">Country*</option>
                           <option value="1">Canada</option>
-                          <option value="2">Usa</option>
+                          <option value="2">USA</option>
                           <option value="3">England</option>
                           <option value="4">Germany</option>
                         </select>

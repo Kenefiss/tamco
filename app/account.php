@@ -244,7 +244,7 @@
                     <div class="row">
                       <div class="col-sm-6">
                         <div class="input-field-wrapp">
-                          <input class="input" type="text" name="phone" required="">
+                          <input class="input" type="tel" name="phone" required="">
                           <div class="input-placeholder">Phone</div>
                           <div class="input-error">The input field must contain a Phone Number</div>
                         </div>

@@ -28,11 +28,13 @@
                   <div class="input-field-wrapp">
                     <input class="input" type="password" name="new-password" required>
                     <div class="input-placeholder">Create Password</div>
+                    <i class="password-control"></i>
                   </div>
 
                   <div class="input-field-wrapp">
                     <input class="input" type="password" name="confirm-password" required>
                     <div class="input-placeholder">Confirm Password</div>
+                    <i class="password-control"></i>
                   </div>
                 </div>
 

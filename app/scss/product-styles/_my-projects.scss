@@ -450,8 +450,8 @@
     margin: 0 15px;
   }
 
-  .row.project-card-row>div[class*=col] {
-    margin-bottom: 20px;
+  .project-card-row {
+    --bs-gutter-y: 20px;
   }
 
   .account-block {
@@ -460,10 +460,6 @@
 
   .account-block .title {
     margin-bottom: 20px;
-  }
-
-  .account-form .input-field-wrapp {
-    margin-bottom: 10px;
   }
 
   .account-form .btn {

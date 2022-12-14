@@ -12,4 +12,5 @@
 <script type="text/javascript" src="https://tamlite-dev.itwcorp-dev.info/wp-content/themes/tamlite/js/global.js?ver=6.1.0" id="tamlite-global-js"></script>
 
 
+<script defer src="js/vendors/jquery.inputmask.min.js"></script>
 <script defer src="js/product-global.js"></script>

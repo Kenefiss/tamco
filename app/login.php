@@ -33,6 +33,7 @@
                   <div class="input-field-wrapp">
                     <input class="input" type="password" name="password" required>
                     <div class="input-placeholder">Password</div>
+                    <i class="password-control"></i>
                   </div>
 
                   <div class="d-flex justify-content-end align-items-center text-right">
