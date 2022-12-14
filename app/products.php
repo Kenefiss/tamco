@@ -21,7 +21,7 @@
             <div class="banner-entry-align align-bottom text-center">
               <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-sm-11 col-xl-8 col-xxl-7">
+                  <div class="col-sm-11 col-xl-9 col-xxl-7">
                     <h1 class="h1 title white text-upper">Application</h1>
                     <div class="h3 white fw-300">
                       Et bibendum posuere cras ullamcorper a sem quam et, in. Diam arcu sit cursus imperdiet quis amet, vitae nisi, sagittis. Pharetra viverra molestie fermentum, pharetra.
@@ -680,7 +680,7 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <a class="btn btn-2 btn-primary" href="products-category.php"><b>View All SpecialtyProducts</b></a>
+                <a class="btn btn-2 btn-primary" href="products-category.php"><b>View All Specialty Products</b></a>
               </div>
             </div>
           </div>

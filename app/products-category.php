@@ -389,7 +389,7 @@
                         <div class="prd__item--name">HBX100</div>
                         <div class="prd__item--descr">HBX Series</div>
                         <div class="prd__item--view">
-                          <b>View</и>
+                          <b>View</b>
                         </div>
                       </a>
                     </div>

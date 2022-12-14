@@ -25,7 +25,7 @@
             <div class="banner-entry-align align-bottom text-center">
               <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-sm-11 col-xl-8 col-xxl-7">
+                  <div class="col-sm-11 col-xxl-9">
                     <h1 class="h1 title white text-upper">HBX Series Products</h1>
                     <div class="h3 white fw-300">
                       Et bibendum posuere cras ullamcorper a sem quam et, in. Diam arcu sit cursus imperdiet quis amet, vitae nisi, sagittis. Pharetra viverra molestie fermentum, pharetra.

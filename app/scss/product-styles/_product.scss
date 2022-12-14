@@ -304,10 +304,6 @@
     vertical-align: bottom;
   }
 
-  .prd__title--count {
-    text-align: center;
-  }
-
   .prd__item {
     height: calc(100% - 12px);
     margin-top: 12px;
@@ -341,15 +337,34 @@
       margin-left: -10px;
     }
   }
+
+  .prd__title--count {
+    text-align: right;
+  }
+}
+
+@media (max-width: 767px) {
+  .prd__title--count {
+    text-align: center;
+  }
 }
 
 @media (max-width: 575px) {
   .banner-entry.small.prd__banner .banner-entry-align {
-    padding: 80px 15px 15px;
+    padding: 60px 15px 30px;
+
+    &:before {
+      background: linear-gradient(180deg, rgba(25, 55, 104, 0) 0%, #193768 100%);
+    }
   }
+
 
   .prd__row {
     --bs-gutter-y: 20px;
+  }
+
+  .prd__btn-wrap .btn {
+    width: 100%;
   }
 }
 

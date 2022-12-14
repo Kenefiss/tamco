@@ -25,7 +25,7 @@
             <div class="banner-entry-align align-bottom text-center">
               <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-sm-11 col-xl-8 col-xxl-7">
+                  <div class="col-sm-11 col-xxl-9">
                     <h1 class="h1 title white text-upper">ARPS Series Products</h1>
                     <div class="h3 white fw-300">
                       Parking Lots • Road & Pathways • Public Spaces • Campuses • Work Sites • Parks & Recreation

@@ -318,7 +318,7 @@
                         <div class="prd__item--name">HBX100</div>
                         <div class="prd__item--descr">HBX Series</div>
                         <div class="prd__item--view">
-                          <b>View</и>
+                          <b>View</b>
                         </div>
                       </a>
                     </div>
@@ -344,7 +344,7 @@
           <div class="section" style="background-color: var(--clr-grey-100);">
             <div class="container">
               <div class="row justify-content-center">
-                <div class="col-xxl-10">
+                <div class="col-xxl-10 col-xl-11">
 
                   <div class="accessories-title h3 title">Accessories</div>
 
