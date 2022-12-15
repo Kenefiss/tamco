@@ -303,6 +303,10 @@
   }
 }
 
+.btn-icon {
+  overflow: visible;
+}
+
 .btn-tooltip {
   position: absolute;
   pointer-events: none;
@@ -338,12 +342,13 @@
       }
     }
 
-    .btn-icon:hover {
-      .btn-tooltip {
-        transform: translate(-50%, 100%);
-        opacity: 1;
-        visibility: visible;
-      }
+  }
+
+  .btn-icon:hover {
+    .btn-tooltip {
+      transform: translate(-50%, 100%);
+      opacity: 1;
+      visibility: visible;
     }
   }
 }

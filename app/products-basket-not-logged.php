@@ -202,8 +202,6 @@
                           <option value="Country">Country*</option>
                           <option value="1">Canada</option>
                           <option value="2">USA</option>
-                          <option value="3">England</option>
-                          <option value="4">Germany</option>
                         </select>
                         <div class="input-placeholder in-select">Country*</div>
                       </div>
@@ -211,11 +209,17 @@
                     <div class="col-sm-6">
                       <div class="input-field-wrapp">
                         <select name="province" class="SelectBox">
-                          <option value="Country">Province*</option>
-                          <option value="1">Province 1</option>
-                          <option value="2">Province 2</option>
-                          <option value="3">Province 3</option>
-                          <option value="4">Province 4</option>
+                          <option value="Province">Province*</option>
+                          <option>Ontario</option>
+                          <option>Quebec</option>
+                          <option>Nova Scotia</option>
+                          <option>New Brunswick</option>
+                          <option>Manitoba</option>
+                          <option>British Columbia</option>
+                          <option>Prince Edward Island</option>
+                          <option>Saskatchewan</option>
+                          <option>Alberta</option>
+                          <option>Newfoundland and Labrador</option>
                         </select>
                         <div class="input-placeholder in-select">Province*</div>
                       </div>

@@ -34,12 +34,14 @@
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M3 17.25V21H6.75L17.81 9.94L14.06 6.19L3 17.25ZM21.41 6.34L17.66 2.59L15.13 5.13L18.88 8.88L21.41 6.34V6.34Z" fill="#193768" />
                           </svg>
+                          <span class="btn-tooltip">Edit Product</span>
                         </div>
 
                         <div class="btn-icon open-popup" data-rel="delete-project">
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 21H18V7H6V21ZM8.46 11.88L9.87 10.47L12 12.59L14.12 10.47L15.53 11.88L13.41 14L15.53 16.12L14.12 17.53L12 15.41L9.88 17.53L8.47 16.12L10.59 14L8.46 11.88V11.88ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z" fill="#193768" />
                           </svg>
+                          <span class="btn-tooltip">Delete Project</span>
                         </div>
                       </div>
                     </div>
@@ -128,7 +130,7 @@
                           </svg>
                           <span class="btn-tooltip">Edit Product Specs</span>
                         </div>
-                        <div class="btn-icon btn-remove">
+                        <div class="btn-icon btn-remove open-popup" data-rel="remove-prod-2">
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 21H18V7H6V21ZM8.46 11.88L9.87 10.47L12 12.59L14.12 10.47L15.53 11.88L13.41 14L15.53 16.12L14.12 17.53L12 15.41L9.88 17.53L8.47 16.12L10.59 14L8.46 11.88V11.88ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z" fill="#193768" />
                           </svg>
@@ -144,7 +146,7 @@
                           <span class="btn-tooltip">Save</span>
                         </div>
 
-                        <div class="btn-icon btn-remove">
+                        <div class="btn-icon btn-remove open-popup" data-rel="remove-prod-2">
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 21H18V7H6V21ZM8.46 11.88L9.87 10.47L12 12.59L14.12 10.47L15.53 11.88L13.41 14L15.53 16.12L14.12 17.53L12 15.41L9.88 17.53L8.47 16.12L10.59 14L8.46 11.88V11.88ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z" fill="#193768" />
                           </svg>
@@ -196,7 +198,7 @@
                           </svg>
                           <span class="btn-tooltip">Edit Product Specs</span>
                         </div>
-                        <div class="btn-icon btn-remove">
+                        <div class="btn-icon btn-remove open-popup" data-rel="remove-prod-2">
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 21H18V7H6V21ZM8.46 11.88L9.87 10.47L12 12.59L14.12 10.47L15.53 11.88L13.41 14L15.53 16.12L14.12 17.53L12 15.41L9.88 17.53L8.47 16.12L10.59 14L8.46 11.88V11.88ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z" fill="#193768" />
                           </svg>
@@ -212,7 +214,7 @@
                           <span class="btn-tooltip">Save</span>
                         </div>
 
-                        <div class="btn-icon btn-remove">
+                        <div class="btn-icon btn-remove open-popup" data-rel="remove-prod-2">
                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 21H18V7H6V21ZM8.46 11.88L9.87 10.47L12 12.59L14.12 10.47L15.53 11.88L13.41 14L15.53 16.12L14.12 17.53L12 15.41L9.88 17.53L8.47 16.12L10.59 14L8.46 11.88V11.88ZM15.5 4L14.5 3H9.5L8.5 4H5V6H19V4H15.5Z" fill="#193768" />
                           </svg>

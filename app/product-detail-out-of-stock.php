@@ -137,10 +137,10 @@
                           Add to basket to request a quote or save to a project folder
                         </div>
                       </div>
-                      <div class="tooltip">
+                      <div class="tooltip no-info">
                         <i>!</i>
                         <b>Product out of stock</b>
-                        <div class="tooltip-info d-none">
+                        <div class="tooltip-info">
                           Product out of stock
                         </div>
                       </div>

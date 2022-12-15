@@ -236,22 +236,22 @@ jQuery(function($) {
   });
 
 
-  //btn remove
-  $(document).on('click', '.btn-remove', function() {
-    var item = $(this).closest('.project-content').find('.project-item');
+  // //btn remove
+  // $(document).on('click', '.btn-remove', function() {
+  //   var item = $(this).closest('.project-content').find('.project-item');
 
-    if (item.length == 1) {
-      $(this).closest('.project-wrapper').find('.project-top').remove();
-      $(this).closest('.project-wrapper').find('.project-empty').removeClass('d-none');
-      $(this).closest('.project-item').slideUp(0, function() {
-        $(this).remove();
-      });
-    } else {
-      $(this).closest('.project-item').slideUp(0, function() {
-        $(this).remove();
-      });
-    }
-  });
+  //   if (item.length == 1) {
+  //     $(this).closest('.project-wrapper').find('.project-top').remove();
+  //     $(this).closest('.project-wrapper').find('.project-empty').removeClass('d-none');
+  //     $(this).closest('.project-item').slideUp(0, function() {
+  //       $(this).remove();
+  //     });
+  //   } else {
+  //     $(this).closest('.project-item').slideUp(0, function() {
+  //       $(this).remove();
+  //     });
+  //   }
+  // });
 
 
 

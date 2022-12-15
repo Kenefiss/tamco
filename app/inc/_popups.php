@@ -57,6 +57,27 @@
 </div>
 
 <!-- Remove Product  -->
+<div class="popup-content" data-rel="remove-prod-2">
+  <div class="layer-close"></div>
+  <div class="popup-container size-3 type-2">
+    <div class="popup-align type-3 text-left">
+
+      <div class="h3 title fw-400 dark-blue">Remove Product</div>
+
+      <div class="text text-xl dark-blue">
+        Are you sure you want to remove this product from your project?
+      </div>
+
+      <div class="text-center">
+        <div class="btn btn-2 btn-primary">Remove Product</div>
+      </div>
+
+    </div>
+    <button class="btn-close type-3 close-popup"></button>
+  </div>
+</div>
+
+<!-- Remove Product  -->
 <div class="popup-content" data-rel="remove-prod">
   <div class="layer-close"></div>
   <div class="popup-container size-3 type-2">

@@ -414,6 +414,12 @@
   visibility: visible;
 }
 
+.tooltip.no-info {
+  .tooltip-info {
+    display: none;
+  }
+}
+
 .out-stock {
   .quantity-input {
 
@@ -519,14 +525,16 @@
   }
 
   .prd__detail--btn-wrap {
+    flex-wrap: wrap;
+
     .btn {
       flex-grow: 1;
     }
-  }
 
-  .tooltip {
-    b {
-      display: none;
+    .tooltip.no-info {
+      order: -1;
+      margin-left: 0;
+      margin-bottom: 25px;
     }
   }
 
