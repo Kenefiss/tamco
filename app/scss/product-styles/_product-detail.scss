@@ -154,7 +154,7 @@
 
     .simple-link {
       margin-top: 20px;
-      align-self: flex-end;
+      margin-left: 30px;
     }
   }
 
@@ -358,6 +358,12 @@
   }
 }
 
+.add-to-basket.loading {
+  b {
+    opacity: 0;
+  }
+}
+
 .tooltip {
   position: relative;
   display: inline-flex;
@@ -455,6 +461,7 @@
       height: 30px;
     }
   }
+
 
   .prd__detail {
     .social-wrapper {

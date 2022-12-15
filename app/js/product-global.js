@@ -104,11 +104,24 @@ jQuery(function($) {
 
   // Add product to basket
   $(document).on('click', '.add-to-basket', function() {
-    let prdSec = $(this).closest('.prd__detail--section');
+    let th = $(this);
+    let prdSec = th.closest('.prd__detail--section');
     let prdName = prdSec.find('.prd__detail--name').text();
-
     prdSec.find('.prd__informer .prd__informer--name b').text(prdName)
-    prdSec.find('.prd__informer').slideDown();
+
+    th.addClass('loading').append('<div class="spinner"></div>')
+
+    // remove this when you use ajax
+    setTimeout(function() {
+      th.find('.spinner').remove();
+      th.removeClass('loading');
+
+      $('html, body').animate({
+        scrollTop: $('.prd__detail--section').offset().top - $('header').height()
+      }, 1000);
+
+      prdSec.find('.prd__informer').slideDown();
+    }, 1500);
   })
 
 

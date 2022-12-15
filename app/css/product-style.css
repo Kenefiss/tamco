@@ -228,7 +228,7 @@ html.ctg-open-filter body {overflow: hidden;}
 @media (max-width: 767px) {
 .prd__detail--slider {width: 78%;min-width: 220px;margin-inline: auto;margin-bottom: 15px;}
 .prd__informer--inner {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;padding: 20px 15px;-webkit-box-align: start;-ms-flex-align: start;align-items: flex-start;}
-.prd__informer--inner .simple-link {margin-top: 20px;-ms-flex-item-align: end;align-self: flex-end;}
+.prd__informer--inner .simple-link {margin-top: 20px;margin-left: 30px;}
 .prd__specs--series {margin-bottom: 30px;}
 .prd__specs > .btn {width: 100%;}
 .accordion-inner > .title {text-align: center;}
@@ -263,6 +263,7 @@ html.ctg-open-filter body {overflow: hidden;}
 .in-input[type=text] {max-width: 220px;width: 100%;}
 .prd__detail--btn-wrap {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
 .prd__detail--btn-wrap .tooltip {margin-left: 15px;}
+.add-to-basket.loading b {opacity: 0;}
 .tooltip {position: relative;display: -webkit-inline-box;display: -ms-inline-flexbox;display: inline-flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-ms-flex-negative: 0;flex-shrink: 0;}
 .tooltip i {cursor: pointer;display: inline-block;width: 26px;height: 26px;line-height: 21px;text-align: center;font-size: 20px;font-weight: bold;color: var(--clr-grey-700);border: 3px solid currentColor;border-radius: 100%;}
 .tooltip b {font-weight: 400;font-size: 13px;line-height: 20px;letter-spacing: 0.01em;color: var(--clr-grey-700);margin-left: 10px;}
