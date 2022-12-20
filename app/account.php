@@ -240,7 +240,7 @@
               <div class="col-12 col-lg-10 col-xl-6 col-xxl-4">
                 <div class="account-block">
                   <div class="h2 title dark-blue">Hello Robert C.</div>
-                  <form class="account-form form-block">
+                  <form class="account-form form-block loading-process">
                     <div class="row">
                       <div class="col-sm-6">
                         <div class="input-field-wrapp">

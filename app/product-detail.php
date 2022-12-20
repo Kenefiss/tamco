@@ -236,6 +236,7 @@
                       </div>
                     </div>
                   </div>
+                  
                   <div class="col-md-6 col-xl-4 offset-xl-1">
                     <div class="prd__specs">
                       <div class="prd__specs--name">
@@ -295,6 +296,7 @@
                       <div class="btn btn-2 btn-fifth"><b>Download Specs</b></div>
                     </div>
                   </div>
+
                   <div class="col-md-11 col-xl-9">
                     <div class="caption white">
                       Not all configurations and options are stocked, and some may require minimum order quantities and lead times to produce. To inquire about availability, please call your local point of sale or contact us directly.

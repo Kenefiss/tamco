@@ -78,51 +78,51 @@ jQuery(function($) {
 
 
   // Accordion
-  $(document).on('click', '.accordion .accordion-title', function() {
-    if ($(this).hasClass('active')) {
-      $(this).removeClass('active').next().slideUp();
-    } else {
-      $(this).closest('.accordion-wrapp').find('.accordion-title').not(this).removeClass('active').next().slideUp();
-      $(this).addClass('active').next().slideDown();
-    }
-  });
+  // $(document).on('click', '.accordion .accordion-title', function() {
+  //   if ($(this).hasClass('active')) {
+  //     $(this).removeClass('active').next().slideUp();
+  //   } else {
+  //     $(this).closest('.accordion-wrapp').find('.accordion-title').not(this).removeClass('active').next().slideUp();
+  //     $(this).addClass('active').next().slideDown();
+  //   }
+  // });
 
 
-  // Button "+" & "-"
-  $(document).on('click', '.in-btn-dec', function() {
-    let number = $(this).closest('.in-inner').find('input[name="number"]');
-    number.val(+number.val() + 1);
-  })
+  // // Button "+" & "-"
+  // $(document).on('click', '.in-btn-dec', function() {
+  //   let number = $(this).closest('.in-inner').find('input[name="number"]');
+  //   number.val(+number.val() + 1);
+  // })
 
-  $(document).on('click', '.in-btn-inc', function() {
-    let number = $(this).closest('.in-inner').find('input[name="number"]');
-    if (+number.val() > 0) {
-      number.val(+number.val() - 1);
-    }
-  })
+  // $(document).on('click', '.in-btn-inc', function() {
+  //   let number = $(this).closest('.in-inner').find('input[name="number"]');
+  //   if (+number.val() > 0) {
+  //     number.val(+number.val() - 1);
+  //   }
+  // })
 
 
-  // Add product to basket
-  $(document).on('click', '.add-to-basket', function() {
-    let th = $(this);
-    let prdSec = th.closest('.prd__detail--section');
-    let prdName = prdSec.find('.prd__detail--name').text();
-    prdSec.find('.prd__informer .prd__informer--name b').text(prdName)
+  // // Add product to basket
+  // $(document).on('click', '.add-to-basket', function() {
+  //   let th = $(this);
+  //   let prdSec = th.closest('.prd__detail--section');
+  //   let prdName = prdSec.find('.prd__detail--name').text();
+  //   prdSec.find('.prd__informer .prd__informer--name b').text(prdName)
 
-    th.addClass('loading').append('<div class="spinner"></div>')
+  //   th.addClass('loading').append('<div class="spinner"></div>')
 
-    // remove this when you use ajax
-    setTimeout(function() {
-      th.find('.spinner').remove();
-      th.removeClass('loading');
+  //   // remove this when you use ajax
+  //   setTimeout(function() {
+  //     th.find('.spinner').remove();
+  //     th.removeClass('loading');
 
-      $('html, body').animate({
-        scrollTop: $('.prd__detail--section').offset().top - $('header').height()
-      }, 1000);
+  //     $('html, body').animate({
+  //       scrollTop: $('.prd__detail--section').offset().top - $('header').height()
+  //     }, 1000);
 
-      prdSec.find('.prd__informer').slideDown();
-    }, 1500);
-  })
+  //     prdSec.find('.prd__informer').slideDown();
+  //   }, 1500);
+  // })
 
 
 
