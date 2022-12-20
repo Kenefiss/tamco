@@ -125,6 +125,18 @@ jQuery(function($) {
   // })
 
 
+  $(document).on('change', 'input[name="colleague’s Email"]', function() {
+    let th = $(this);
+
+    if (th.is(':checked')) {
+      $('.c-email-wrap').slideDown()
+    } else {
+      $('.c-email-wrap').slideUp()
+    }
+
+  })
+
+
 
 
   //*==============

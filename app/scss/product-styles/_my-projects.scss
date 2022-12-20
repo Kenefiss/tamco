@@ -450,6 +450,15 @@
     margin: 0 15px;
   }
 
+  .empty-block {
+    .h2 {
+      font-size: 22px;
+    }
+    .h3 {
+      font-size: 16px;
+    }
+  }
+
   .project-card-row {
     --bs-gutter-y: 20px;
   }
@@ -495,7 +504,3 @@
     margin-bottom: 30px;
   }
 }
-
-/*------------------------*/
-/* - Account Information  */
-/*------------------------*/

@@ -22,7 +22,7 @@
                                     <img src="img/icons/check-dark.svg" alt="">
                                 </div>
                                 <h1 class="h3 title fw-400 dark-blue text-center">Password Updated</h1>
-                                <div class="text text-xl dark-blue2 text-center">Password has been updated successfully</div>
+                                <div class="text text-xl dark-blue2 text-center">Your password has been updated successfully</div>
                             </div>
 
                             <div class="text-center">

@@ -239,17 +239,17 @@
                     <div class="col-sm-6">
                       <div class="checkbox-entry-wrap">
                         <label class="checkbox-entry">
-                          <input type="checkbox" name="checkbox1" value="">
+                          <input type="checkbox" name="checkbox1">
                           <span>Send copy to yourself</span>
                         </label>
                         <label class="checkbox-entry">
-                          <input type="checkbox" name="checkbox2" value="" checked>
+                          <input type="checkbox" name="colleague’s Email">
                           <span>Send Copy to a Colleague</span>
                         </label>
                       </div>
                     </div>
                     <div class="col-sm-6 align-self-end">
-                      <div class="input-field-wrapp">
+                      <div class="input-field-wrapp c-email-wrap" style="display: none">
                         <input class="input" type="email" name="colleague’s Email" required="">
                         <div class="input-placeholder">Colleague’s Email</div>
                         <div class="input-error">The email must contain the "@" sign</div>

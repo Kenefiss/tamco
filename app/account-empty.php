@@ -85,12 +85,8 @@
                       <div class="input-field-wrapp">
                         <select name="country" class="SelectBox">
                           <option>Country</option>
-                          <option value="1">Canada 1</option>
-                          <option value="2">Canada 2</option>
-                          <option value="3">Canada 3</option>
-                          <option value="4">Canada 4</option>
-                          <option value="5">Canada 5</option>
-                          <option value="6">Canada 6</option>
+                          <option value="1">Canada</option>
+                          <option value="2">USA</option>
                         </select>
                         <div class="input-placeholder in-select">Country</div>
                       </div>
@@ -98,14 +94,19 @@
                     <div class="col-sm-6">
                       <div class="input-field-wrapp">
                         <select name="province" class="SelectBox">
-                          <option>Province</option>
-                          <option value="1">Province 1</option>
-                          <option value="2">Province 2</option>
-                          <option value="2">Province 3</option>
-                          <option value="2">Province 4</option>
-                          <option value="2">Province 5</option>
+                          <option>Province/State</option>
+                          <option>Ontario</option>
+                          <option>Quebec</option>
+                          <option>Nova Scotia</option>
+                          <option>New Brunswick</option>
+                          <option>Manitoba</option>
+                          <option>British Columbia</option>
+                          <option>Prince Edward Island</option>
+                          <option>Saskatchewan</option>
+                          <option>Alberta</option>
+                          <option>Newfoundland and Labrador</option>
                         </select>
-                        <div class="input-placeholder in-select">Province</div>
+                        <div class="input-placeholder in-select">Province/State</div>
                       </div>
                     </div>
                     <div class="col-12">

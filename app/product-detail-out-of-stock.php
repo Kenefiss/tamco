@@ -117,7 +117,7 @@
                           <div class="in-placeholder">Quantity</div>
                           <div class="in-inner">
                             <button class="in-btn-dec"></button>
-                            <input class="in-input" name="number" type="number" value="0">
+                            <input class="in-input" name="number" type="number" value="1">
                             <button class="in-btn-inc"></button>
                           </div>
                         </div>
@@ -131,12 +131,6 @@
                     </div>
                     <div class="prd__detail--btn-wrap">
                       <button class="btn btn-2 btn-fourth add-to-basket"><b>Add to Basket</b></button>
-                      <div class="tooltip">
-                        <i>?</i>
-                        <div class="tooltip-info">
-                          Add to basket to request a quote or save to a project folder
-                        </div>
-                      </div>
                       <div class="tooltip no-info">
                         <i>!</i>
                         <b>Product out of stock</b>
@@ -161,13 +155,13 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-xxl-7 col-xl-9 col-md-11">
-              <div class="accordion-inner">
+              <div class="products-accordeon">
                 <div class="h2 title text-upper dark-blue">Product Specifications</div>
 
-                <div class="accordion-wrapp">
-                  <div class="accordion">
-                    <div class="accordion-title">Performance <i class="plus"></i></div>
-                    <div class="accordion-content" style="display: none;">
+                <div class="variation_tabs">
+                  <div class="products-accordeon-entry">
+                    <div class="products-accordeon-title">Performance <i class="plus"></i></div>
+                    <div class="products-accordeon-toggle" style="display: none;">
                       <div class="text">
                         <table>
                           <tbody>
@@ -216,9 +210,9 @@
                       </div>
                     </div>
                   </div>
-                  <div class="accordion">
-                    <div class="accordion-title">Electrical <i class="plus"></i></div>
-                    <div class="accordion-content">
+                  <div class="products-accordeon-entry">
+                    <div class="products-accordeon-title">Electrical <i class="plus"></i></div>
+                    <div class="products-accordeon-toggle">
                       <div class="text">
                         <table>
                           <tbody>
@@ -243,9 +237,9 @@
                       </div>
                     </div>
                   </div>
-                  <div class="accordion">
-                    <div class="accordion-title">Physical <i class="plus"></i></div>
-                    <div class="accordion-content">
+                  <div class="products-accordeon-entry">
+                    <div class="products-accordeon-title">Physical <i class="plus"></i></div>
+                    <div class="products-accordeon-toggle">
                       <div class="text">
                         <table>
                           <tbody>
@@ -270,9 +264,9 @@
                       </div>
                     </div>
                   </div>
-                  <div class="accordion">
-                    <div class="accordion-title">Shipping <i class="plus"></i></div>
-                    <div class="accordion-content">
+                  <div class="products-accordeon-entry">
+                    <div class="products-accordeon-title">Shipping <i class="plus"></i></div>
+                    <div class="products-accordeon-toggle">
                       <div class="text">
                         <table>
                           <tbody>

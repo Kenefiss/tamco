@@ -22,9 +22,9 @@
               <div class="container">
                 <div class="row justify-content-center">
                   <div class="col-sm-11 col-xl-9 col-xxl-7">
-                    <h1 class="h1 title white text-upper">Application</h1>
+                    <h1 class="h1 title white text-upper">Lighting that Gets the Job Done</h1>
                     <div class="h3 white fw-300">
-                      Et bibendum posuere cras ullamcorper a sem quam et, in. Diam arcu sit cursus imperdiet quis amet, vitae nisi, sagittis. Pharetra viverra molestie fermentum, pharetra.
+                      Explore product series by application and find the perfect lighting solution for your needs.
                     </div>
                   </div>
                 </div>
@@ -200,7 +200,7 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <a class="btn btn-2 btn-primary" href="products-category-filtered-3.php"><b>View All Exterior Products</b></a>
+                <a class="btn btn-2 btn-primary" href="products-category-filtered-3.php"><b>All Exterior Products</b></a>
               </div>
             </div>
           </div>
@@ -257,7 +257,7 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <a class="btn btn-2 btn-primary" href="products-category.php"><b>View All Harsh Hazardous Products</b></a>
+                <a class="btn btn-2 btn-primary" href="products-category.php"><b>All Harsh Hazardous Products</b></a>
               </div>
             </div>
           </div>
@@ -447,7 +447,7 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <a class="btn btn-2 btn-primary" href="products-category-filtered-1.php"><b>View All Interior Products</b></a>
+                <a class="btn btn-2 btn-primary" href="products-category-filtered-1.php"><b>All Interior Products</b></a>
               </div>
             </div>
           </div>
@@ -637,7 +637,7 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <a class="btn btn-2 btn-primary" href="products-category.php"><b>View All Low Voltage Lighting Systems Products</b></a>
+                <a class="btn btn-2 btn-primary" href="products-category.php"><b>All Low Voltage Lighting Systems Products</b></a>
               </div>
             </div>
           </div>
@@ -680,7 +680,7 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <a class="btn btn-2 btn-primary" href="products-category.php"><b>View All Specialty Products</b></a>
+                <a class="btn btn-2 btn-primary" href="products-category.php"><b>All Specialty Products</b></a>
               </div>
             </div>
           </div>

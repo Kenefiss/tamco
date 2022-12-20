@@ -23,7 +23,7 @@
                   <div class="col-sm-11">
                     <h1 class="h1 title white text-upper">Product Basket</h1>
                     <div class="h3 white fw-300">
-                      Enim urna, orci facilisi libero, dictum rutrum cum. Tincidunt amet, vel sit scelerisque ac molestie in arcu.
+                      Gather Tamlite products here to request a quote or save in a dedicated project folder for later.
                     </div>
                   </div>
                 </div>
