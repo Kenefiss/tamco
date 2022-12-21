@@ -860,6 +860,9 @@
 
   <script defer src="js/vendors/jquery.inputmask.min.js"></script>
   <script defer src="js/product-global.js"></script>
+
+  <!-- this script only itw demo -->
+  <script defer src="js/initS.js"></script>
 </body>
 
 </html>
