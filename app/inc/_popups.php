@@ -264,7 +264,7 @@
           <div class="checkbox-entry-wrap">
             <label class="checkbox-entry">
               <input type="checkbox" name="ch1" checked>
-              <span>Empty Project Basket</span>
+              <span>Empty Product Basket</span>
             </label>
           </div>
         </div>

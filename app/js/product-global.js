@@ -8,6 +8,8 @@
 //* 04 PROJECT DETAIL       =
 //*==========================
 
+let _functions = {};
+
 
 jQuery(function($) {
   "use strict";
@@ -78,14 +80,10 @@ jQuery(function($) {
 
 
   // Accordion
-  // $(document).on('click', '.accordion .accordion-title', function() {
-  //   if ($(this).hasClass('active')) {
-  //     $(this).removeClass('active').next().slideUp();
-  //   } else {
-  //     $(this).closest('.accordion-wrapp').find('.accordion-title').not(this).removeClass('active').next().slideUp();
-  //     $(this).addClass('active').next().slideDown();
-  //   }
-  // });
+  $(document).on('click', '.products-accordeon-title', function() {
+    $(this).closest('.products-accordeon-entry').toggleClass('active')
+    $(this).closest('.products-accordeon-entry').find('.products-accordeon-toggle').slideToggle()
+  });
 
 
   // // Button "+" & "-"

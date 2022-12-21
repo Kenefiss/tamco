@@ -19,11 +19,11 @@
                         <div class="account-wrapper size-2 pb-2">
                             <div class="block-title">
                                 <h1 class="h1 title fw-400 dark-blue text-upper text-center">Forgot Password</h1>
-                                <div class="text text-xl dark-blue text-center">Please enter your email and we’ll send you a link to reset your password.</div>
+                                <div class="text text-xl dark-blue text-center">If you have an email on file with us, we'll send you a link to reset your password.</div>
                             </div>
 
                             <form class="form-wrapp size-2">
-                                <div class="error-message d-none">Incorrect access credentials</div>
+                                <!-- <div class="error-message d-none">Incorrect access credentials</div> -->
 
                                 <div class="form-block">
                                     <div class="input-field-wrapp">

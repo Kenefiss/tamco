@@ -200,7 +200,8 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <a class="btn btn-2 btn-primary" href="products-category-filtered-3.php"><b>All Exterior Products</b></a>
+                <a class="btn btn-2 btn-primary" href="products-category-filtered-3.php"><b>View All</b></a>
+                <!-- <a class="btn btn-2 btn-primary" href="products-category-filtered-3.php"><b>View All Exterior Products</b></a> -->
               </div>
             </div>
           </div>
@@ -257,7 +258,8 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <a class="btn btn-2 btn-primary" href="products-category.php"><b>All Harsh Hazardous Products</b></a>
+                <a class="btn btn-2 btn-primary" href="products-category.php"><b>View All</b></a>
+                <!-- <a class="btn btn-2 btn-primary" href="products-category.php"><b>All Harsh Hazardous Products</b></a> -->
               </div>
             </div>
           </div>
@@ -447,7 +449,8 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <a class="btn btn-2 btn-primary" href="products-category-filtered-1.php"><b>All Interior Products</b></a>
+                <a class="btn btn-2 btn-primary" href="products-category-filtered-1.php"><b>View All</b></a>
+                <!-- <a class="btn btn-2 btn-primary" href="products-category-filtered-1.php"><b>All Interior Products</b></a> -->
               </div>
             </div>
           </div>
@@ -637,7 +640,8 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <a class="btn btn-2 btn-primary" href="products-category.php"><b>All Low Voltage Lighting Systems Products</b></a>
+                <a class="btn btn-2 btn-primary" href="products-category.php"><b>View All</b></a>
+                <!-- <a class="btn btn-2 btn-primary" href="products-category.php"><b>All Low Voltage Lighting Systems Products</b></a> -->
               </div>
             </div>
           </div>
@@ -680,7 +684,8 @@
 
               <!-- Buttons wrapper -->
               <div class="prd__btn-wrap">
-                <a class="btn btn-2 btn-primary" href="products-category.php"><b>All Specialty Products</b></a>
+                <a class="btn btn-2 btn-primary" href="products-category.php"><b>View All</b></a>
+                <!-- <a class="btn btn-2 btn-primary" href="products-category.php"><b>All Specialty Products</b></a> -->
               </div>
             </div>
           </div>

@@ -52,9 +52,9 @@
 
                 <!-- if no project, empty block set visible -->
                 <div class="empty-block">
-                  <div class="h2 title dark-blue text-cap">No project saved yet</div>
-                  <div class="h3 title grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida vel in.</div>
-                  <a class="btn btn-2 btn-fourth" href="products.php"><b>Search Products</b></a>
+                  <div class="h2 title dark-blue text-cap">Nothing to show yet</div>
+                  <div class="h3 title grey">Once you’ve created a project folder and added products, it will show up here</div>
+                  <a class="btn btn-2 btn-fourth" href="products.php"><b>Browse Products</b></a>
                 </div>
                 <!-- empty block end -->
 
