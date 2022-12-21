@@ -243,7 +243,7 @@
                           <span>Send copy to yourself</span>
                         </label>
                         <label class="checkbox-entry">
-                          <input type="checkbox" name="colleague’s Email">
+                          <input type="checkbox" name="checkbox-email">
                           <span>Send Copy to a Colleague</span>
                         </label>
                       </div>

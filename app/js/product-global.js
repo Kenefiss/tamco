@@ -8,8 +8,6 @@
 //* 04 PROJECT DETAIL       =
 //*==========================
 
-let _functions = {};
-
 
 jQuery(function($) {
   "use strict";
@@ -79,11 +77,11 @@ jQuery(function($) {
   //*====================
 
 
-  // Accordion
-  $(document).on('click', '.products-accordeon-title', function() {
-    $(this).closest('.products-accordeon-entry').toggleClass('active')
-    $(this).closest('.products-accordeon-entry').find('.products-accordeon-toggle').slideToggle()
-  });
+  // // Accordion
+  // $(document).on('click', '.products-accordeon-title', function() {
+  //   $(this).closest('.products-accordeon-entry').toggleClass('active')
+  //   $(this).closest('.products-accordeon-entry').find('.products-accordeon-toggle').slideToggle()
+  // });
 
 
   // // Button "+" & "-"
@@ -123,7 +121,7 @@ jQuery(function($) {
   // })
 
 
-  $(document).on('change', 'input[name="colleague’s Email"]', function() {
+  $(document).on('change', 'input[name="checkbox-email"]', function() {
     let th = $(this);
 
     if (th.is(':checked')) {

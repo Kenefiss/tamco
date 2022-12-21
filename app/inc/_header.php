@@ -26,7 +26,7 @@
             <span class="active"><a href="#" class="nturl notranslate en united-states single-language flag" title="English" data-lang="English">En</a></span><span><a href="#" class="nturl notranslate fr French single-language flag" title="French" data-lang="French">Fr</a></span><span><a href="#" class="nturl notranslate es Spanish single-language flag" title="Spanish" data-lang="Spanish">Esp</a></span> </div>
         </div>
         <a class="header-top-right-entry active" href="https://tamlite-dev.itwcorp-dev.info/quote/">
-          <b>Project Basket:</b>
+          <b>Product Basket:</b>
           <span>
             <span class="cart_count_ajax getcountajax">0</span>
           </span>
